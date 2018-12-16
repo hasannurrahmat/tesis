@@ -32,7 +32,7 @@
                         <div class="panel-heading">Menu Utama</div>
                         <div class="panel-body">
                             <a href="<?php echo base_url();?>master/berita" class="btn btn-primary btn-block">Berita Online</a>
-                            <a href="<?php echo base_url();?>efas" class="btn btn-primary btn-block">EFAS</a>
+                            <a href="<?php echo base_url();?>master/efas" class="btn btn-primary btn-block">EFAS</a>
                         </div>
                         <!-- /.panel-body -->
                     </div>

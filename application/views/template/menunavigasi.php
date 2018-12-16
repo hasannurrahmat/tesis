@@ -14,7 +14,7 @@
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Data Master <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 					<li><a href="<?php echo base_url();?>master/berita/">Berita Online</a></li>
-					<li><a href="<?php echo base_url();?>master/konsumen/">Konsumen</a></li>
+					<li><a href="<?php echo base_url();?>master/efas/">EFAS</a></li>
 					</ul>
 				</li>
 			

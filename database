@@ -1,0 +1,128 @@
+database
+
+group_user
+user
+situs
+topik - PESTLE
+topik situs
+berita
+
+create table group_user(
+	id_group_user int primary key auto_increment,
+	group_user varchar(255)
+);
+
+create table user(
+	id_user int primary key auto_increment,
+	nama varchar(255),
+	username varchar(255),
+	password varchar(255),
+	file_photo varchar(255),
+	id_group_user int
+);
+
+create table situs(
+	id_situs int primary key auto_increment,
+	situs varchar(255),
+	link_url text
+);
+
+create table topik(
+	id_topik int primary key auto_increment,
+	topik varchar(255)
+);
+
+create table topik_situs(
+	id_topik_situs int primary key auto_increment,
+	id_situs int,
+	id_topik int,
+	link_url text
+);
+
+create table berita(
+	id_berita int primary key auto_increment,
+	id_topik_situs int,
+	berita text,
+	tanggal_terbit date
+);
+
+create table kelas(
+	id_kelas int primary key auto_increment,
+	kelas text
+);
+
+create table training_data(
+	id_training_data int primary key auto_increment,
+	id_berita int,
+	id_kelas int
+);
+
+create table testing_data(
+	id_testing_data int primary key auto_increment,
+	id_berita int,
+	id_kelas int
+);
+
+create table term_training_data(
+	id_term_training_data int primary key auto_increment,
+	id_training_data int,
+	term varchar(255)
+);
+
+create table term_testing_data(
+	id_term_testing_data int primary key auto_increment,
+	id_testing_data int,
+	term varchar(255)
+);
+
+create table efas(
+	id_efas int primary key auto_increment,
+	id_kelas int,
+	id_berita int,
+	weight double,
+	rating double,
+	score double
+);
+
+insert into group_user values ('', 'admin');
+insert into group_user values ('', 'user');
+
+insert into situs values ('', 'Detik', 'https://www.detik.com/');
+insert into situs values ('', 'Okezone', 'https://www.okezone.com/');
+insert into situs values ('', 'Kompas', 'https://www.kompas.com/');
+insert into situs values ('', 'RMOL', 'https://rmol.co/');
+insert into situs values ('', 'Metrotvnews', 'http://www.metrotvnews.com/');
+
+insert into topik_situs values ('', 1, 4, 'https://inet.detik.com/indeks?date=');
+insert into topik_situs values ('', 1, 6, 'https://news.detik.com/indeks/daerah?date=');
+insert into topik_situs values ('', 2, 2, 'https://economy.okezone.com/indeks/');
+insert into topik_situs values ('', 2, 3, 'https://news.okezone.com/indeks/');
+insert into topik_situs values ('', 2, 4, 'https://techno.okezone.com/indeks/');
+insert into topik_situs values ('', 2, 6, 'https://lifestyle.okezone.com/indeks/');
+insert into topik_situs values ('', 3, 2, 'https://ekonomi.kompas.com/search/');
+insert into topik_situs values ('', 3, 3, 'https://nasional.kompas.com/search/');
+insert into topik_situs values ('', 3, 4, 'https://tekno.kompas.com/search/');
+insert into topik_situs values ('', 4, 1, 'https://politik.rmol.co/index.php?&page=');
+insert into topik_situs values ('', 4, 2, 'https://ekbis.rmol.co/index.php?&page=');
+insert into topik_situs values ('', 4, 3, 'https://nusantara.rmol.co/index.php?&page=');
+insert into topik_situs values ('', 4, 5, 'https://hukum.rmol.co/index.php?&page=');
+insert into topik_situs values ('', 5, 1, 'http://news.metrotvnews.com/more/politik/');
+insert into topik_situs values ('', 5, 2, 'http://ekonomi.metrotvnews.com/index/');
+insert into topik_situs values ('', 5, 3, 'http://news.metrotvnews.com/more/peristiwa/');
+insert into topik_situs values ('', 5, 4, 'http://teknologi.metrotvnews.com/index/');
+insert into topik_situs values ('', 5, 5, 'http://news.metrotvnews.com/more/hukum/');
+insert into topik_situs values ('', 5, 6, 'http://news.metrotvnews.com/more/daerah/');
+
+insert into kelas values ('', 'Opportunity');
+insert into kelas values ('', 'Threat');
+insert into kelas values ('', 'None');
+
+insert into user values ('', 'admin', 'admin', 'admin', 1);
+insert into user values ('', 'user', 'user', 'user', 2);
+
+insert into topik values ('', 'Political');
+insert into topik values ('', 'Economics');
+insert into topik values ('', 'Sosial');
+insert into topik values ('', 'Technology');
+insert into topik values ('', 'Legal');
+insert into topik values ('', 'Environment');
