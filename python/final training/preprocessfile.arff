@@ -1,0 +1,1606 @@
+@relation preprocessfile
+
+@attribute berita string
+@attribute id numeric
+@attribute kelas {opportunity,threat,none}
+
+@data
+'tampak xiaomi mi mix edisi khusus harga rp juta',1,opportunity
+'usaha tarung tawar misi bulan',2,threat
+'microsoft segar ikon office',3,opportunity
+'startup bandung masuk final kompetisi pitching asia pasifik',4,threat
+'tangan kreatif sang ayah sulap coret anak jadi keren',5,threat
+'sambut harbolnas xiaomi pangkas harga ponselnya',6,opportunity
+'menristek beri lampu hijau kampus buka prodi esport',7,threat
+'google pensiun hangouts',8,threat
+'worldaidsday ingat netizen dunia',9,none
+'tampak gfx r kamera medium format anyar fujifilm',10,opportunity
+'kepala bssn masyarakat media sosial santun baik',11,none
+'ponsel baru nokia bakal lahir india',12,threat
+'layan transportasi grab klaim nomor satu fintech',13,opportunity
+'bak bunglon wanita bisa tiru agam karakter',14,none
+'main fortnite hampir tara duduk indonesia',15,opportunity
+'postingan ig stories kini lebih personal',16,opportunity
+'unboxing google pixel ponsel mungil kamera mumpuni',17,opportunity
+'juta data tamu hotel marriott bobol hacker',18,threat
+'smartfren siap hadir bundling iphone xs xs max xr',19,opportunity
+'ponsel masa depan sony layar lipat transparan',20,opportunity
+'aksi pertama bill gates kala jadi triliuner lunas kpr',21,none
+'virgin galatic siap terbang manusia antariksa',22,threat
+'indosat bantah kirim sms waspada reuni',23,threat
+'delapan tips jitu deteksi hoax ala kepala bssn',24,threat
+'teradata vantage rilis apa unggul',25,none
+'wah apple iphone xr gratis',26,threat
+'robot jadi layan kafe kendali orang lumpuh',27,none
+'potret reinkarnasi tokoh kenal dunia',28,none
+'tahun microsoft indonesia',29,threat
+'ramai guyon kocak andainikahankum',30,none
+'tabur berlian apple watch banderol rp juta',31,threat
+'korsel gelar jaring g komersial pertama dunia',32,threat
+'sama manusia robot bisa baper',33,threat
+'reuniakbardimonas puncak trending topic',34,none
+'sasar segmen rupa realme realme u tak saling kanibal',35,threat
+'sasar milenial doyan selfie begini tampak realme u',36,opportunity
+'game baik jatuh',37,none
+'isi baterai oppo r pro cepat dunia',38,opportunity
+'ekspansi singapura go-jek pilih tak ganti nama',39,opportunity
+'realme u tak cuma andal selfie',40,opportunity
+'pubg mobile tembus juta download',41,opportunity
+'vivo v fairy pink sambut natal tahun baru',42,opportunity
+'toko online laku tipsnya',43,threat
+'alas go-jek ganti logo',44,none
+'unboxing headphone premium rp juta',45,opportunity
+'lg g thinq keluh bootloop',46,threat
+'pertama dunia jepang siar tv k',47,threat
+'google hangouts tak tutup',48,threat
+'hajat elektronik icee indonesia gelar apa',49,threat
+'mau jalan luar angkasa nasa jual tiket',50,none
+'jejak ponsel gionee bangkrut judi',51,threat
+'samsung ciduk nge-tweet pakai iphone',52,threat
+'roket soyuz siap antar astronot stasiun antariksa',53,none
+'aku bos gionee judi triliun pakai duit usaha',54,threat
+'microsoft bakal rilis perangkat layar lipat nama andromeda',55,opportunity
+'prediksi jahat pakai ai film minority report jadi nyata',56,none
+'kenal data jaring riset digital muka australia',57,none
+'edar bocor iphone baru apa rombak',58,threat
+'gionee ponsel kawak china goyah judi',59,threat
+'bagaimana banding tarif go-jek grab singapura',60,opportunity
+'google hangouts pensiun',61,threat
+'oops samsung tercyduk ngetweet pakai iphone',62,threat
+'tonton berita teknologi baru sini',63,none
+'meme derby merseyside blunder pickford lari heboh klopp',64,none
+'tampil cantik vivo x symphony edition',65,opportunity
+'telkomsel dukung digitalisasi uri',66,opportunity
+'bos kalah judi rp triliun gionee ancam bangkrut',67,threat
+'deret hasil jepret iphone xr',68,opportunity
+'edan speaker banderol rp miliar',69,threat
+'dia ponsel google assistant harga rp ribu',70,opportunity
+'asyik pesan go-jek suruh google assistant',71,opportunity
+'dukung ukm lazada jual produk lokal desember',72,threat
+'update os pixel baik masalah manajemen ram',73,opportunity
+'catat tanggal asus rilis ponsel gaming sekaligus',74,opportunity
+'lazada beri promo lama hari',75,threat
+'kini pesan ojek online pakai google assistant',76,opportunity
+'cari lowong kerja tanya mbah google aja',77,opportunity
+'liga mobile game indonesia gelar hadiah puluh juta rupiah',78,none
+'asus rog phone mau datang intip dulu tampak',79,none
+'go-jek ada ribu driver singapura',80,opportunity
+'cuma rp ribu tampil ponsel jual google',81,opportunity
+'qualcomm tech summit g nyata',82,opportunity
+'siap rog phone sambang indonesia',83,none
+'logo go-jek singapura indonesia sama',84,none
+'asus rog phone segera rilis indonesia',85,none
+'kumpul meme tumblr blokir konten porno',86,none
+'tahu go-jek ganti baju',87,none
+'tumblr mulai bersih konten porno',88,none
+'grab resmi grabbike lounge kebayoran lama',89,none
+'murah google kenal ponsel rp ribu',90,opportunity
+'canggih begini jadi kalau kota rang pakai iot',91,opportunity
+'ini desain kamera galaxy s',92,opportunity
+'apple tunggu rilis iphone g',93,opportunity
+'wow tiktok jadi aplikasi baik pilih',94,opportunity
+'hampir rampung palapa ring siap sambung indonesia',95,none
+'edar bocor varian plus ultra galaxy s',96,opportunity
+'tumblr blokir konten porno mulai desember',97,opportunity
+'lindswell cantik banget sih hijab',98,none
+'unboxing realme u ponsel buat generasi selfie',99,opportunity
+'pokemon go bakal punya mode pvp',100,opportunity
+'lenovo ikut garap ponsel layar bolong',101,opportunity
+'kok pakai charger logo oppo realme',102,opportunity
+'samsung raja huawei tumbuh signifikan',103,opportunity
+'hoax whatsapp makan korban',104,threat
+'galaxy as lubang kamera layar segera rilis',105,opportunity
+'lukis klasik padu budaya pop pakai photoshop',106,none
+'ribu giat startup padat gsi scale con',107,threat
+'tiktok jadi aplikasi baik play store',108,opportunity
+'lebih hemat grab beri diskon rp ribu grabfresh',109,none
+'si jiplak iphone bikin ponsel punya proyektor',110,threat
+'kamera ponsel anyar huawei bikin foto d',111,opportunity
+'begini cara twitter bikin netizen nyaman',112,opportunity
+'tarif impor mahal pabrik iphone pindah vietnam',113,threat
+'kuning cerah sepeda listrik tarif sewa rp per jam',114,threat
+'berkat twitter sutopo bnpb harga nih',115,none
+'tips twitter ala sutopo pn receh jangan baper',116,none
+'vivo buka experience store pertama indonesia',117,opportunity
+'twitter berantas juta akun negatif panjang',118,threat
+'rameditwitter jokowi asi games prabowo',119,none
+'jadi migo station janji juta rupiah tiap bulan',120,none
+'deret akun tagar populer twitter panjang',121,none
+'surat tuhan tulis albert einstein jual rp miliar',122,none
+'rilis ponsel g samsung gaet qualcomm verizon',123,opportunity
+'twitter mulai tinggal netizen indonesia',124,threat
+'tumblr mau hapus konten porno kata kominfo',125,threat
+'asyik warga jakarta sewa sepeda listrik',126,none
+'kamera iphone x xs kalah pocophone blackberry',127,opportunity
+'layan sewa sepeda listrik kini sapa jakarta',128,opportunity
+'cas cis cus driver go-jek ajar bahasa inggris',129,none
+'karyawan apple minta fokus jual trio iphone baru',130,opportunity
+'kucur dana startup akan integrasi grab',131,threat
+'potret waktu ubah segala',132,none
+'cara beli gadget idam buat anak kosan kantong pas',133,opportunity
+'samsung malaysia tahu pakai foto dslr iklan ponsel',134,opportunity
+'kursi roda bisa kontrol pakai ekspresi wajah',135,threat
+'astronot gagal iss akhir punya sempat',136,none
+'salip apple xiaomi jadi raja wearable',137,opportunity
+'go-jek turun harga grab mau ikut',138,opportunity
+'spacex pecah rekor hari',139,none
+'vainglory bakal sedia windows mac',140,none
+'tampak snapdragon lebih kecil koin rp',141,opportunity
+'nih tips ambil angle foto kece feed medsos kamu',142,none
+'google ajak maju indonesia rame-rame',143,opportunity
+'deret foto makro ponsel bikin terpana',144,none
+'snapdragon umum smartphone g datang',145,opportunity
+'airpods jadi aksesoris apple paling populer',146,opportunity
+'google go aplikasi cari jaring internet lambat',147,opportunity
+'petinggi huawei aman pihak wajib kanada',148,threat
+'aplikasi grab datang jumlah fitur baru apa',149,none
+'bos tangkap kanada kata huawei',150,threat
+'bos huawei tangkap kanada',151,threat
+'ancam serius mobile gaming buat game konsol',152,opportunity
+'saing chrome microsoft siap browser baru',153,threat
+'tips video libur unik pakai tiktok cobain yuk',154,none
+'google mati allo',155,threat
+'pubg mulai langkah fortnite',156,opportunity
+'iron man captain america tampil imut',157,none
+'ponsel pertama otak snapdragon',158,none
+'akhir warga kuba akses internet ponsel',159,opportunity
+'bukti kalau motor listrik cetak printer d',160,none
+'bos xiaomi pamer ponsel kamera mp',161,opportunity
+'google-nya rusia bikin ponsel',162,threat
+'bill gates puasa musik nonton tv tahun',163,none
+'asus zenfone max pro m punya tampil premium',164,opportunity
+'asik edisi batas vivo v fairy pink resmi pasar',165,opportunity
+'bagai negara siap bareng adopsi g',166,opportunity
+'jago marvel hadap thanos nintendo switch tahun depan',167,none
+'ilmuwan sebut alien pernah sambang bumi',168,none
+'tampak pukau makhluk huni dasar laut',169,none
+'sap indonesia gelar top employer',170,none
+'landa skandal facebook tak tempat kerja baik',171,threat
+'rilis snapdragon cx laptop qualcomm usik intel',172,opportunity
+'bangkit huawei anggap ancam amerika',173,threat
+'kisah sederhana bos telko harta rp triliun',174,none
+'qualcomm tahun g',175,opportunity
+'goks crash team racing bakal hadir playstation',176,none
+'skipjack corporation kenal encrypblock apa',177,threat
+'spek lengkap zenfone max m zenfone max pro m',178,opportunity
+'horor pearl harbour tahun lalu balik lensa kamera',179,opportunity
+'sedia g lte indonesia tingkat signifikan',180,opportunity
+'hp luncur laptop printer sekaligus indonesia',181,none
+'yuk lihat iphone xr segera rilis resmi indonesia',182,opportunity
+'china minta amerika cepat lepas bos huawei',183,threat
+'minat beli iphone ini sebut lemah tahun',184,threat
+'potret meng wanzhou bos huawei tangkap kanada',185,threat
+'perempuan hobi main game ponsel data',186,opportunity
+'fitur chatting grab kini kirim pesan suara foto',187,none
+'tampak iphone xs max harga rp juta',188,opportunity
+'penting medsos sutopo pn tangkal hoax ketemu raisa',189,none
+'oppo guyur rp triliun riset kembang',190,opportunity
+'apa alas fanboy apple kini malas ganti iphone baru',191,threat
+'harga iphone xs xs max xr resmi indonesia',192,opportunity
+'mau sukses tiru sifat karakter orang kaya',305,none
+'meski murah sedikit masyarakat mau investasi reksadana',306,none
+'tol bocimi hadir kembang industri bogor-sukabumi tingkat',307,opportunity
+'tol sukabumi jadi alternatif wisata warga jakarta',308,opportunity
+'lewat tol ciawi-cigombong menit',309,opportunity
+'ajar investasi saham hingga properti lewat main',310,none
+'sri mulyani teknologi buka akses usaha perempuan',311,opportunity
+'sumber daya limpah tan jamin indonesia tak kurang pangan',312,threat
+'tata kelola gambut ri jadi rujuk dunia',313,none
+'sri mulyani bawa hasil temu g',314,threat
+'pasok sayur mayur aman harga pasar stabil',315,none
+'guru honorer peluang punya hak tara pns',316,none
+'kasir warung kopi cucu bos chaoroen kini punya startup dapat juta dolar as',317,threat
+'ekspor mebel tembus usd miliar industri furnitur dongkrak tumbuh ekonomi',318,none
+'lamar cpns lingkung istana wajib ikut skb',319,none
+'as-china sepakat gencat perang dagang',320,opportunity
+'wall street naik tajam imbas gencat perang dagang',321,opportunity
+'sama presiden jokowi hadir ceo networking hary tanoesoedibjo pasar modal perlu bangun imbang perban pasar uang',322,threat
+'menristekdikti revolusi industri peluang indonesia kreasi inovasi',323,threat
+'serah terima jabat dwi soetjipto resmi ngantor skk migas',324,none
+'pertamina aju turun harga bbm non subsidi',325,none
+'sektor pariwisata target sumbang devisa usd miliar',326,opportunity
+'jadi kepala skk migas apa akan laku dwi soetjipto',327,none
+'jelang akhir tahun naik harga pangan nilai wajar',328,threat
+'blak-blakan bos mrt kereta masinis',329,none
+'wall street lesu akibat khawatir lambat ekonomi as',330,threat
+'dirut mrt kan siap jelang operasi maret',331,none
+'rupiah kuat rp faktor dukung',332,opportunity
+'usaha migas italia komit aplikasi gross split',333,none
+'uang emisi - expired bi buka layan tukar sabtu minggu',334,none
+'bos mrt ungkap sulit bangun transportasi modern ri',335,none
+'uang emisi tidak guna ini alas',336,none
+'tumbuh ekonomi asean prediksi lambat',337,threat
+'gencat perang dagang as-china bawa dampak positif ekonomi indonesia',338,opportunity
+'tan terima harga sistem kendali gratifikasi baik kpk',339,none
+'jelang akhir tahun sri mulyani lapor realisasi apbn presiden jokowi',340,none
+'sri mulyani satu dekade akhir rp triliun anggar tak serap tiap tahun',341,threat
+'natal tahun baru jumlah tumpang kereta api tingkat tembus juta',342,none
+'sri mulyani kucur rp triliun defisit bpjs sehat',343,none
+'antisipasi natal tahun baru kemenhub tambah jalan kereta',344,none
+'wall street anjlok usai tangkap putri diri huawei',345,threat
+'usaha pabrikan iphone masuk indonesia menko luhut jamin soal izin',346,threat
+'uni eropa larang cpo indonesia menko luhut polandia pekan depan',347,none
+'menkeu temu ganda jamin sehat capai juta jiwa',348,none
+'defisit apbn rendah sejak capai rp triliun',349,threat
+'kerja apa gaji naik paling tinggi',350,none
+'kata sri mulyani soal utang bumn tembus rp triliun',351,threat
+'menaker minta rekruitmen kerja bas kompetensi',352,none
+'wall street buka lesu usai rilis data tenaga kerja',353,threat
+'revitalisasi sungai citarum menko luhut akan buat danau',354,none
+'ihsg naik pekan pertama desember',355,opportunity
+'cadang devisa tingkat sri mulyani terus antisipasi dinamika global',356,opportunity
+'sri mulyani lantik andin hadiyanto jadi staf ahli',357,none
+'rupiah sempat lemah bi pengaruh khawatir pasar',358,threat
+'segera resmi realisasi investasi kek galang batang rp triliun',359,none
+'lpei gali peluang kerjasama ekonomi indonesia-afrika',360,opportunity
+'ekspor anak ayam timor leste terus tingkat',361,none
+'komentar presiden jokowi soal kuat rupiah',362,opportunity
+'intip jalan karir bos unilever paul polman',363,none
+'kenal mary barra bos wanita paling pengaruh dunia',364,none
+'mau daftar npwp online cek langkah sini',365,none
+'fakta uang rupiah tidak laku',366,none
+'harga telur ayam lonjak jadi rp kg',367,none
+'mahal harga daging ayam kini jual rp',368,none
+'tuding intervensi muktamar abdul mu ti info pak amien tak akurat',369,none
+'mui diy dulu rangka masalah ahok sekarang apa',370,opportunity
+'mendagri nonton wayang kulit yogya lakon sengkuni gugur',371,none
+'bikin sapu tanggung sandi buat sih kotor negara',372,none
+'tim alpha deklarasi dukung siap menang jokowi jateng',373,none
+'pilpres armageddon mahfud md nakut-nakutin aja pak amien',374,none
+'mahfud md reuni kental nuansa politis biarin',375,opportunity
+'donasi palu-donggala pasca menhub abdee lelang gitar',376,none
+'pohon tumbang jalur pantura kudus-pati sempat macet jam',377,none
+'imbau kader ikut reuni pks diy tak urus politik',378,none
+'imbau partai kader pks diy jakarta ikut reuni',379,none
+'teleskop zeiss besar milik boscha kini usia tahun',380,none
+'polisi tangkap selundup sabu-sabu lewat anus lapas ciamis',381,threat
+'mobil chevrolet seret ka sri tanjung tiga tumpang luka',382,none
+'mau lapor tommy soeharto ratus acara bela basarah',383,none
+'peleset ajar smp tewas tenggelam taman angsa',384,none
+'massa reuni asal purwakarta mulai tolak jakarta',385,opportunity
+'kata mendagri soal isu intervensi muktamar pemuda muhammadiyah',386,none
+'toko ponsel mojokerto bobol curi rugi rp juta',387,threat
+'kaget banyak tak kenal prabowo sandiaga jadi laku',388,none
+'polisi siaga lokasi bekas bentrok geng motor cimahi',389,threat
+'evakuasi mahasiswa papua rampung begini situasi jalan kalas',390,none
+'syahbandar sebut bakar gm gerbang samudra i dek kapal',391,none
+'karyawan spbu banyuwangi tangkap salahgunakan bbm subsidi',392,none
+'mahasiswa papua hasil evakuasi jalan kalas buka',393,none
+'bentrok kelompok motor cimahi orang luka',394,threat
+'polisi aman wna australia asrama mahasiswa papua',395,none
+'santri ponpes lumajang tewas tenggelam sih septi tank',396,none
+'mobil rombong pengantin guling tanjak panganten garut',397,threat
+'polisi bantah mahasiswa papua hilang fakta',398,none
+'polisi pulang mahasiswa papua tidak kuliah surabaya',399,none
+'rieke ungkap bakal angkat pns tenaga sehat',400,opportunity
+'cekam asrama mahasiswa papua surabaya kepung ormas',401,none
+'orang remaja tenggelam waduk sempor',402,none
+'rekam cctv ungkap laku bunuh perempuan boyolali',403,none
+'bayi bulan pingsan kali km gerbang samudra i bakar',404,none
+'tanggap sandiaga kait dukung partai bulan bintang',405,none
+'buya syafii angkat bicara soal kasus habib bahar',406,none
+'sosok cak nanto mata buya syafii',407,none
+'buya syafii muktamar pemuda muhammadiyah tak intervensi',408,none
+'butuh jam padam api lahap gedung undar jombang',409,threat
+'puluh ajar sd sukabumi racun bubur gratis',410,threat
+'emil dardak restu adik nyaleg',411,none
+'gedung fakultas ilmu didik undar jombang bakar',412,threat
+'stasiun tawang semarang genang air',413,threat
+'komplot buat dokumen palsu tarif juta rupiah ringkus',414,none
+'selawat maman imanulhaq ajak massa istigasah acung jari satu',415,none
+'kerap aniaya ibu kandung pria temu tewas kebun pisang',416,none
+'bbws citarum rencana tambah kolam retensi bandung selatan',417,opportunity
+'jenazah bos batik keris tiba solo pesawat carter',418,none
+'pek jembatan bojonegoro ambruk warga sulit akses',419,threat
+'hujan angin kencang landa semarang jumlah pohon tumbang',420,threat
+'trauma warga lumpur sidoarjo tolak bor baru',421,threat
+'pesan ma ruf amin massa istigasah garut',422,none
+'solusi gubernur soekarwo redam konflik mahasiswa papua',423,none
+'dishub jatim tegas bijak ganjil genap wacana',424,threat
+'dor garong motor bandung sungkur tembak',425,threat
+'caleg gerindra tahan kejar brebes kasus gelap',426,none
+'kasus cabul santri mojokerto ganjal laku mangkir',427,none
+'nyata motif fajar habis nyawa perkosa kasir boyolali',428,none
+'titik rawan bencana tugas ka siaga natal tahun baru',429,threat
+'polisi serius usut alir sesat pimpin sensen komara',430,none
+'putri ma ruf amin soal istigasah garut bukan politik murni doa',431,none
+'mui polisi warga garut buat surat sensen rasul allah',432,none
+'reuni hanya gera politik ideologi',433,opportunity
+'polda jabar selidik kasus begal tewas awat neng',434,none
+'ribu nelayan pantura cirebon ganjar asuransi gratis',435,opportunity
+'pemkot usaha ritel sepakat kurang kantong plastik bandung',436,opportunity
+'situs wisata gua pawon masuk prioritas ridwan kamil',437,opportunity
+'viral video biker pukul spion mobil hingga patah lembang',438,none
+'angin kencang terjang lereng rapi boyolali puluh rumah rusak',439,threat
+'reuni nilai gera politik minim edukasi elektoral',440,opportunity
+'sandiaga didapuk jadi keluarga ponpes sunan drajat hormat',441,none
+'edar sabu sergap tol rupa jaring lapas',442,none
+'cerita korban curi motor temu polres indramayu',443,none
+'polisi aman kosmetik ilegal endorse artis indonesia',444,none
+'sosok handianto tjokrosaputro bos batik keris tutup usia',445,none
+'kades kampanye sandiaga bakal sidang maraton',446,none
+'puluh rumah wonosoco kudus terjang banjir bandang',447,threat
+'motor curi pamer mapolres indramayu',448,threat
+'ridwan kamil luncur jabar masagi gedung negara cirebon',449,opportunity
+'kpk periksa jabat perum jasa tirta mapolres purwakarta',450,none
+'polres cirebon tangkap bunuh atun',451,none
+'wawan suap kalapas sukamiskin buat ngamar sampai sekarang',452,none
+'nelayan karawang tanam mangrove langka pantai pasir putih',453,none
+'tiga tahun resmi pasar keren sarijadi sepi melompong',454,none
+'sensen komara sebut ikut sosok rasul',455,none
+'longsor jadi trenggalek rincian rusa',456,threat
+'asuh ponpes bantah cabul santri keluarga korban tuntut',457,none
+'perintah gelontor rp miliar sungai citarum',458,opportunity
+'mobil sedan bakar simpang tiga taman pelangi tumpang shock',459,none
+'pemkot bandung ambil alih kelola pasar baru',460,opportunity
+'pasar kota bandung revitalisasi',461,opportunity
+'begini situasi tunagrahita simulasi coblos ponorogo',462,none
+'terima suap napi lapas sukamiskin wahid khilaf',463,none
+'kades kampanye sandiaga lolos sanksi henti',464,none
+'berkat nama waspada syukur ketemu jodoh',465,none
+'pohon tumbang timpa mobil jember kemudi luka ringan',466,none
+'mas kanjeng vonis nihil jaksa aju banding',467,none
+'ungkap fuad amin pura rs padahal rumah mewah dago',468,none
+'sungai cisarua sukabumi luap rumah warga rendam',469,threat
+'kppu awas industri jasa uang tambang',470,none
+'klhk usaha indonesia predikat hijau emas',471,opportunity
+'tawur ajar cirebon polisi minta sekolah tindak tegas',472,threat
+'festival kebaya banyuwangi tampil sentuh segar desain',473,opportunity
+'tim jabar saber hoaks gawang milenial',474,opportunity
+'alir sesat sensen komara bikin resah warga garut',475,none
+'polisi kawal pesta tahun baru cirebon',476,none
+'nenek tewas timbun longsor sukabumi',477,none
+'polisi gowes bareng ulama ormas islam jalin silaturahmi',478,opportunity
+'akhir tahun pabrik ka besar indonesia bangun banyuwangi',479,opportunity
+'tempat akan jadi destinasi wisata arsitektur banyuwangi',480,opportunity
+'reuni datang stasiun gondangdia',481,opportunity
+'ribu reuni padat stasiun bogor malam',482,opportunity
+'dirjen pas napi aceh salat jamaah malah manfaat oknum kabur',483,none
+'antisipasi antre tumpang reuni kci tambah tugas loket stasiun',484,opportunity
+'bocah laki tenggelam kali batang hari jakbar',485,none
+'stasiun gondangdia juanda lengang pasca-aksi reuni',486,opportunity
+'identitas mahasiswa unpri tewas mandi air panas',487,none
+'mahasiswa unpri pergi libur tahu pihak kampus',488,none
+?,489,none
+'dor polisi kendali sabu sindikat malaysia intai bulan',490,none
+'jalur pantura semarang kendal-batang banjir awas macet',491,threat
+'arti panggil khusus mclaren ketua umum ppp yaya purnomo akhir ungkap',492,none
+'teliti muka tanah jakut turun cm per tahun',493,threat
+'jalur pantura kaligawe banjir parah ganjar maaf tanggung jawab',494,threat
+'curhat hari banjir ganjar traktir warga semarang mi ayam',495,threat
+'curhat tolak tuhan kritik orang yahudi surat albert einstein lelang',496,none
+'residivis nekat curi motor foya istri',497,none
+'jadi korupsi e-ktp keponakan setnov made oka vonis tahun penjara',498,none
+'duga salah prosedur truk pju tabrak motor',499,none
+'curi hp pasang kasih tangkap polisi',500,threat
+'polisi sebut kkb nduga bukan dari opm',501,none
+?,502,none
+'kuasa hukum sebut habib bahar tetap sangka jam periksa',503,none
+'hendak tawur ratus ajar sekolah aman polisi',504,none
+'bicara forum internasional hary tanoe sektor properti pariwisata dukung',505,opportunity
+'polri minta tegas tangan kasus habib bahar',506,none
+'catat bangun rusak akibat terjang puting beliung bogor',507,threat
+'tabrak pesawat militer as jepang marinir tewas hilang',508,none
+'intip seru selfie alat perang tni ad lapang jenderal soedirman',509,opportunity
+'ombudsman dki sebut pintu keluar jpm tanah abang tempat mangkal copet',510,threat
+'desak tahan istimewa melayu puluh ribu orang unjuk rasa malaysia',511,none
+'ratus ribu jemaat hadir acara natal gbk aparat gabung terjun',512,opportunity
+'mapolsek genuk banjir polisi gotong royong bikin tanggul darurat',513,none
+'ekspor anak ayam timor leste terus tingkat',514,opportunity
+'google doodle tampil pahlawan perempuan indonesia asal minahasa maria walanda maramis',515,opportunity
+'berita hoax marak whatsapp jelang milu nigeria',516,threat
+'google gagal bangun youtube premium',517,none
+'iphone xs xs max xr bakal masuk indonesia',518,opportunity
+'windows bakal mati fitur anti sadap suara',519,opportunity
+'google hangouts bakal mati',520,threat
+'galaxy fold jadi nama ponsel lipat samsung',521,opportunity
+?,522,?
+'ini wujud mobile led screen pertama indonesia',523,opportunity
+'ponsel ram hingga gb',524,opportunity
+'takjub tampak bulan jarak dekat',525,none
+'nasa rencana luncur misi darat bulan',526,none
+'teknologi speaker stella utopia em evo iii harga rp miliar',527,none
+'lelang tiga batu bulan era soviet laku rp miliar',528,none
+'adopsi apple ios lebih cepat ketimbang ios',529,opportunity
+'spacex tunda terbang falcon luar angkasa',530,none
+'mnc play dukung gelar imbex',531,none
+'predator helios jalan game berat fitur backlit keyboard',532,none
+'resmi luncur redbus tawar layan mes tiket bus online',533,none
+'teliti cipta inovasi inspirasi lidah kucing',534,none
+'saing samsung sony bikin ponsel lipat layar transparan',535,opportunity
+'virgin galactic kirim manusia luar angkasa akhir desember',536,none
+'google search mudah cari lowong kerja',537,opportunity
+'google hadir ponsel rp ribu wizphone fiturnya',538,opportunity
+'youtuber usia tahun milik hasil rp miliar',539,opportunity
+'asus rog phone siap luncur desember spesifikasi',540,opportunity
+'asisten google luncur ponsel murah wizphone',541,opportunity
+'google beri latih juta ukm hingga',542,opportunity
+'asteroid bennu bakal tabrak bumi sebab kiamat',543,threat
+'temu dinosaurus spesies baru yakin hidup juta tahun lalu',544,none
+'rilis desember bocor zenfone max pro m',545,opportunity
+'snapdragon deret teknologi pamer qualcomm',546,opportunity
+'tips charging ponsel awet',547,opportunity
+'revenue pubg mobile lampau fortnite pertama kali',548,none
+'xperia xz jadi ponsel pertama cicip snapdragon',549,opportunity
+'jaring g lahir transisi teknologi besar tantang',550,opportunity
+'cara pubg mobile lancar main ponsel',551,opportunity
+'update fortnite tambah kendara senjata custom',552,opportunity
+'google bakal mati aplikasi allo',553,threat
+'spesifikasi asus rog zephyrus s desain tipis',554,opportunity
+'asus kenal jumlah laptop gaming baru indonesia',555,none
+'oneplus baru bakal dukung g snapdragon',556,opportunity
+'baru punya smartphone android hal perlu perhati',557,opportunity
+'desember ici apstv siap gelar idcon',558,opportunity
+'game crash team racing versi baru hadir juni',559,none
+'gratis game cs go bawa modus battle royale',560,none
+'apple watch series hadir fitur monitor detak jantung',561,opportunity
+'lenovo kenal laptop baru yoga c yoga s',562,none
+'epic developer game fortnite buka store resmi',563,threat
+'rilis rusia harga zenfone max pro m',564,opportunity
+'daftar ponsel gaming baik',565,opportunity
+'perangkat seluler fesyen bakal jadi incar harbolnas',566,threat
+'bawa bibit kentang china luncur wahana darat bulan',567,none
+'google tambah fitur smart reply hangouts chat',568,opportunity
+'apple rilis alat lacak gera tubuh guna tidur',569,opportunity
+'god of war nobat jadi game baik',570,opportunity
+'facebook hadir fitur live shopping',571,opportunity
+'nasa insight tangkap suara angin pertama kali mars',572,opportunity
+'andrew white nana mirdad tips jaga harmonis rumah tangga',573,none
+'sering dengar musik pakai earphone tidur bahaya',574,threat
+'luluh hati gebetan ajak pergi tempat wisata',575,none
+'kenal tanda hiv sering abai',576,none
+'hunting foto malam hari spot instagenik paling recommended',577,opportunity
+'taman wisata burung jadi destinasi kini',578,none
+'mau lihat lebih ramping foto simak tips fotografer langgan artis era bachir',579,opportunity
+'libur dubai yuk intip beach club bisa kamu kunjung',580,none
+'tak kalah manusia hewan jaga anak penuh dedikasi',581,none
+'libur musim dingin yuk kunjung festival cahaya besar d',582,none
+'viral bocah sd tahan tangis nyanyi lagu blackpink suntik',583,none
+'alis tampak natural nikita willy jajal tren sulam alis',584,none
+'casing ponsel simpan bakteri hampir kali lebih banyak duduk toilet',585,threat
+'alergi cat rambut kepala wanita besar kali lipat',586,none
+'rencana naik kapal pesiar pertama kali tahu ini dulu',587,none
+'travel blogger kenny santana ungkap penting asuransi lancong luar negeri',588,none
+'perlu jasa fotografi traveling',589,threat
+'cara cerdas milenial manfaat promo libur akhir tahun',590,none
+'bocah tahun jadi youtuber kaya dunia dari ulas main',591,opportunity
+'pakai gaun pink sama lebih kece beyonce deepika padukone',592,none
+'jennie blackpink si fashion diva cinta chanel sejati',593,none
+'atas anak sembelit oles minyak kayu putih mitos fakta',594,none
+'rutin olahraga usaha denda karyawan malas jalan',595,none
+'jangan bisul makin parah obat alami di rumah',596,none
+'milenial klaim bunuh industri tuna kaleng alas',597,none
+'karantina miss world china alya nurshabrina sempat ingat ulang tahun sang ayah',598,none
+'bijak jadi kunci kemenpar tarik kunjung wisman',599,opportunity
+'tahun sahabat kunci awet ala enda-oncy ungu',600,none
+'kenal sleep texting ganggu tidur buat kirim pesan sadar',601,threat
+'alas tetap begadang meski tahu dampak buruk',602,none
+'pasang candu nonton film porno coba langkah terapi ikut',603,none
+'toilet training nyata kait hasrat seksual anak',604,none
+'jerawat komedo bandel atas kentang',605,none
+'judas priest manggung jakarta tiga aksesori wajib khas atas panggung',606,none
+'nekat olahraga berat padahal jarang gerak yang bakal jadi tubuh',607,none
+'kali jadi lokasi malam final miss world obyek wisata tarik sanya china',608,none
+'jawab hantar vanessa ponce de leon sukses jadi miss world',609,none
+'riah final miss world dimash sister sledge tampil serba hitam',610,none
+'tahun baru olahraga bintan kasmarun',611,none
+'pariwisata majalengka siap terbang lebih tinggi kemas beda',612,opportunity
+'waskita karya talang anggar bebas lahan tol bocimi',613,threat
+'tak milik simulator boeing max kata pilot lion air',614,none
+'tol bocimi jalan sukabumi jadi lebih singkat',615,none
+'pilot lion air ungkap ketat atur terbang pesawat',616,none
+'cara panasonic dukung industri kreatif',617,threat
+'tarif tol bocimi kira rp per kilometer',618,none
+'jokowi tahun depan bandara sukabumi mulai bangun',619,opportunity
+'geser apple microsoft jadi usaha paling nila dunia',620,opportunity
+'jual sepeda motor operasional usaha jateng tingkat',621,opportunity
+'pilot lion air sebut selamat terbang harga mati',622,none
+'jokowi heran proyek tol bocimi mangkrak hingga tahun',623,none
+'wto ingat potensi risiko krisis dagang global',624,threat
+'jk arab saudi minta bangun kilang minyak cilacap cepat',625,none
+'sempat mangkrak tahun jokowi resmi tol bocimi seksi',626,none
+'imf venezuela lapor inflasi persen',627,none
+'sri mulyani kompak negara g uap',628,threat
+'harga alumina lonjak inalum tetap utama langgan',629,threat
+'garuda buka rute terbang jakarta-london',630,none
+'survei laku bisnis harap bangun infrastruktur lokal realisasi',631,opportunity
+'reuni tumpang krl lonjak',632,opportunity
+'hidup kerja imbang cek sini',633,none
+'per november kk sambung listrik gratis',634,none
+'bonus akhir tahun cair cara bijak kelola',635,none
+'reuni aksi pola operasi berangkat ka rekayasa',636,opportunity
+'baru keluarga korban jt terima uang santun lion air',637,none
+'perang dagang china-as tuju ada tarif tambah januari',638,threat
+'sus enggak mau dengar usaha udang jual produk china thailand',639,none
+'temu ratu belanda sri mulyani beri resep bangun sektor informal',640,none
+'citilink buka rute terbang jakarta-samarinda',641,none
+'usaha punya waktu hari lapor aktivitas merger akuisisi kppu',642,none
+'perintah panjang iupk freeport',643,none
+'pertamina tunggu waktu tepat turun harga bbm non subsidi',644,none
+'kepala skk migas janji tak manja pertamina',645,none
+'utang capai rp triliun begini kata pln',646,threat
+'lebih usaha tak lapor putus merger akuisisi kppu',647,threat
+'rupiah terus perkasa',648,opportunity
+'temu imf-bank dunia jumlah wisman oktober justru turun',649,opportunity
+'pt kai terjun personel aman angkut natal tahun baru',650,opportunity
+'rupiah fluktuatif usaha makan minum bingung',651,threat
+'kppu banyak usaha indonesia tak lapor aktivitas merger akuisisi',652,threat
+'gratis ongkir jadi magnet belanja online',653,threat
+'sentimen eksternal topang kuat rupiah hari',654,opportunity
+'peluang sukses startup persen apa',655,threat
+'arus modal masuk kira sampai tengah desember',656,threat
+'marak koperasi bodong bikin asosiasi gerah',657,threat
+'sambut harbolnas tokopedia diskon mobil yaris hingga persen',658,threat
+'pinjam tunai kredivo lebih banyak untuk didik',659,threat
+'akhir tahun pgn target dumai alir gas',660,none
+'bayar e-commerce naik transaksi kartu kredit tumbuh persen',661,opportunity
+'kredivo sesuai produk pinjam butuh millenial',662,opportunity
+'bank commonwealth luncur kartu debit platinum world',663,opportunity
+'ini jadi daya tarik orang indonesia belanja online',664,opportunity
+'jakarta masuk besar kota paling mahal barang mewah asia',665,none
+'harbolnas lazada tawar barang mulai harga rp',666,threat
+'lewat pinjam tunai kredivo bidik millenial',667,opportunity
+'menhub atur rute kendara besar panjang libur natal tahun baru',668,none
+'per september utang bumn capai rp triliun',669,threat
+'grup bank dunia himpun miliar dollar as aksi lawan ubah iklim -',670,none
+'tan optimis swasembada bawang putih',671,none
+'bank mandiri kejar persen dari transaksi harbolnas',672,opportunity
+'kurang tahun dana izin bi',673,opportunity
+'harbolnas gelar hari satu hari khusus produk lokal',674,opportunity
+'kemenhub angkut umum turun natal tahun baru',675,none
+'dana desa ribu pasar hingga salur urus irigasi bangun',676,none
+'perintah revisi tarif ekspor kelapa sawit',677,none
+'ramai e-payment dana usung by indonesian for indonesia',678,opportunity
+'bangun sdm jadi prioritas jokowi langkah anggar',679,threat
+'harbolnas target raih jumlah transaksi rp triliun',680,opportunity
+'natal tahun baru lonjak tumpang ka prediksi jadi desember',681,none
+'ekonomi indonesia punya sempat tumbuh',682,none
+'tumpang pesawat prediksi capai juta natal tahun baru',683,none
+'libur natal tahun baru tumpang transportasi laut prediksi naik persen',684,none
+'kolaborasi universitas industri kembang sektor uang',685,opportunity
+'mendag tetap daerah tepat ukur daftar',686,opportunity
+'jadi the best marketing mister tourism of asean arief yahya makin pede',687,none
+'genjot tumbuh ekonomi jakarta bidik ekonomi kreatif pariwisata',688,opportunity
+'bi november optimisme konsumen tingkat',689,opportunity
+'hanwha life luncur asuransi dana waris premi rp',690,none
+'kerja industri prediksi paling tinggi naik gaji',691,threat
+'airasia jalin kerja sama mitra lokal vietnam',692,none
+'tan program serasi tingkat produktivitas tani sumsel',693,none
+'amartha salur rp miliar biaya usaha',694,opportunity
+'jonan harap dpr tuju rencana subsidi pasang listrik',695,none
+'btn genjot biaya rumah masyarakat hasil rendah',696,none
+'tak nyaman alami rombong sri mulyani ktt g argentina',697,none
+'maskapai minta tak naik tarif terbang terlalu tinggi natal tahun baru',698,none
+'mudah transaksi amartha optimal proses tanda tangan digital',699,opportunity
+'bisnis tetap tumbuh tahun politik bidik millenial',700,opportunity
+'menhub labuh kali adem segera benah',701,none
+'kuat sistem listrik jakarta banten pln investasi rp miliar',702,none
+'banyak pilot nganggur menhub kurang sekolah terbang',703,none
+'menhub tak mau campur kisruh lion air vs boeing',704,none
+'naik tipis premi industri asuransi jiwa rp triliun',705,none
+'menhub minta tak monopoli taksi bandara ahmad yani',706,none
+'kemenkeu minta konsorsium asuransi jamin barang milik negara',707,none
+'dukung bisnis btn gandeng start-up',708,threat
+'jangan lena kuat rupiah',709,threat
+'menko darmin sakit pasar suka reaksi lebih',710,threat
+'bos go-jek masuk jajar bloomberg',711,none
+'sentimen global jadi faktor utama lemah rupiah',712,threat
+'jeli kelola migas rakyat sejahtera',713,none
+'pasarpolis hadir asuransi mikro skema unik klaim mudah',714,opportunity
+'total industri asuransi jiwa turun persen',715,none
+'aaji asuransi jiwa tetap butuh tenaga pasar',716,none
+'milenial belum peduli milik asuransi jiwa',717,none
+'bandara soekarno-hatta raih best airport of the year bandara awards',718,none
+'milenial jadi investor dominan tawar st-',719,opportunity
+'jual st- lampau target capai rp triliun',720,none
+'tak lapor soal akuisisi kospin jasa denda kppu rp miliar',721,none
+'soal korban serang papua kata bpjs ketenagakerjaan',722,none
+'jumlah yang latar basarah sebut soeharto guru korupsi',723,none
+'bentuk mahasiswa best lalu smart sharing',724,none
+'jembatan hubung tual-maluku tenggara ambruk orang luka',725,none
+'perahu bawa sembako balik ajar smp tumpang tewas tenggelam',726,none
+'gempa magnitudo guncang malu rasa hingga ntt',727,threat
+'beasiswa ajar bahasa asing siswa daerah t',728,none
+'pdi-p aku nyata basarah soeharto guru korupsi rupa kampanye negatif',729,none
+'gempa kuat guncang wilayah malu barat daya',730,threat
+'polisi tangkap satu napi provokator rusuh lapas banda aceh',731,none
+'kasus khashoggi pesan sadap cia ungkap duga libat mbs',732,none
+'kasus tani bunuh istri kesal minta rumah keramik hingga biaya salon',733,none
+'derita hiv aids papua catat orang',734,threat
+'fakta duel maut gara-gara pilih capres prihatin jokowi hingga polisi buru pasok senpi',735,none
+'sudirman said pak harto guru bangun bukan guru korupsi',736,none
+'wisuda xiv umn jawab tantang era industri',737,opportunity
+'jenazah temu air selat malaka',738,none
+'balik kisah difabel rahmat hidayat jago desain idola igun hingga temu jokowi',739,none
+'reuni tinggal prabowo dukacita anies layat',740,none
+'erdogan turki maksud bahaya raja saudi kasus khashoggi',741,none
+'mayat perempuan temu geletak tegal duga korban bunuh',742,none
+'sandiaga kamar hotel seluruh laku berkat acara reuni',743,opportunity
+'ketua rw jatinegara reuni tinggal jam jebak macet',744,none
+'cerita brigpol jackson korban sambar pesawat angkut bbm papua',745,none
+'mantan wali kota tasik dulu zaman beli gunung sekarang habis',746,none
+'duga lelah acara reuni ketua rw jatinegara tinggal',747,none
+'rieke september lalu jokowi angkat tenaga sehat jadi pns',748,opportunity
+'orang tani riau gantung diri tengkar istri',749,none
+'hari serang novel baswedan komitmen jokowi tagih',750,none
+'mensos ajak semua kalang wujud indonesia inklusi',751,none
+'beri bir gratis perempuan nekat coba bakar buah kedai',752,none
+'yogyakarta sandiaga alas hadir acara reuni',753,none
+'kolaborasi scarf perata akses materi didik',754,none
+'olly ajak parfi produksi film sulawesi utara',755,none
+'anies massa reuni mungkin lebih banyak tahun baru sampah lebih sedikit',756,opportunity
+'banjir rawa terate sudin sda jaktim pasang pompa mobile',757,threat
+'warga gotong royong sih sungai limbah minyak pipa pertamina',758,threat
+'suami aniaya istri tetap bagai sangka',759,none
+'orang pria temu tewas jembatan sungai cisadane',760,none
+'kpu segera putus calon oso bagai calon dpd',761,none
+'tangkal banjir bbws target punya kolam retensi baru citarum',762,threat
+'hendak singkir kasur kakek tewas seret banjir bandang',763,none
+'basarah lapor bareskrim kait duga hina soeharto',764,none
+'pangdam kapolda papua tuju lokasi duga tewas kerja jembatan nduga',765,none
+'gp ansor pbnu protes kicau dubes arab saudi soal reuni',766,none
+'anies pernah rasa kerepot orang naik transjakarta',767,threat
+'bareskrim polri periksa saksi kait bahar bin smith polda sumsel',768,none
+'hilang sungai gelut buaya heri temu tewas',769,none
+'henti lomba senjata trump temu putin xi jinping',770,none
+'sambut hari antikorupsi kpk gelar konferensi berantas korupsi',771,opportunity
+'kongres budaya siap gelar rabu pekan',772,opportunity
+'banyak kerja jembatan nduga papua duga bunuh kkb ambil foto upacara',773,none
+'produsen kosmetik oplos diri pernah endorse artis ibu kota',774,none
+'muara sungai dangkal pasok bbm pangkal pinang hambat',775,none
+'cuaca buruk pesawat garuda tuju pontianak darat pangkal pinang',776,none
+'as dukung rencana israel hancur terowongan hezbollah',777,none
+'dialog masyarakat desa sandiaga janji bangun infrastruktur',778,opportunity
+'baik jalan sitanala alternatif bisa lalu',779,none
+'keluarga kerja jembatan nduga papua cemas kabar',780,none
+'dinding turap salur air pondok indah jebol',781,threat
+'caleg gerindra informasi nomor urut temu guru smp',782,none
+'naik tarif kurang parkir anies warga alih transportasi umum',783,opportunity
+'pimpin komisi viii minta kemensos serius bina panti rehabilitasi sosial',784,none
+'as keluar janji nuklir rusia siap lomba senjata',785,none
+'janji kerja milda tipu korban raup rp juta',786,none
+'soekarwo bijak ganjil genap akan terap jatim',787,none
+'politeknik siap jadi motor era industri',788,opportunity
+'calon oesman sapta putus kpu tetap ikut mk',789,none
+'anggota komisi i bunuh kerja nduga papua teror hadap negara',790,none
+'tolak tambang ratus warga hadang wna staf dinas esdm',791,none
+'eurico guterres banyak warga eks timtim tinggal kamp ungsi',792,none
+'bukti longsor aktivitas tambang pt abn henti',793,threat
+'banyak pemda jawa tengah sepakat transaksi non-tunai',794,opportunity
+'supriyadi suluh agama ganggu lihat gaji rp per bulan',795,none
+'penuh sampah busa begini kondisi kali jalan unisma bekas',796,threat
+'cari curi yoghurt polisi taiwan tes dna juta rupiah',797,none
+'mendikbud ungkap beda ajar pmp era orba yang ajar',798,none
+'tangan keras papua aparat minta tetap utama prinsip ham',799,none
+'trembesi tabebuya bakal cantik tol trans jawa jawa timur',800,none
+'kemendagri kebut rekam e-ktp jelang milu',801,none
+'polisi duga ada kerja jembatan belum temu nduga papua',802,none
+'jam periksa sidik polda jubir ky berat jawab tanya',803,none
+'ijinkan anak khayal manfaat',804,none
+'ibu cemas anak sebut jadi korban bunuh kkb papua',805,none
+'kpk tahan sangka kasus duga korupsi jalan bengkal',806,none
+'sakit hati putus pemuda sebar foto mantan pacar tulis dibooking',807,threat
+'selang alkon lepas isi bbm rumah kamar kos bakar',808,none
+'presiden minta icmi beri cerah publik soal penting satu',809,none
+'dpo tahun pidana palsu dokumen kapal tangkap',810,none
+'jica tuju pindah depo mrt stadion bmw',811,none
+'bocah duga hanyut temu cari lanjut jumat pagi',812,none
+'acara bahar bin smith tetap bagai sangka',813,none
+'layan internet sumatera tengah ganggu kata telkomsel',814,threat
+'cirebon kasus bunuh dominasi latar belakang asmara',815,none
+'ma ruf amin bangun infrastruktur papua tak henti',816,opportunity
+'hujan deras jalan masuk dermaga borong manggarai timur jebol',817,none
+'tubuh putri kandung pria vonis tahun penjara denda rp miliar',818,none
+'survei lsi bulan kampanye elektabilitas jokowi-ma ruf persen prabowo-sandiaga persen',819,none
+'tujuh jenazah bunuh kkb nduga papua karyawan pt istaka karya',820,none
+'cegah jual blangko e-ktp kemendagri bakal pantau toko online',821,none
+'pemkot surakarta tak segan meja hijau buang sampah sembarang',822,none
+'polisi telusur duga oknum tni jadi laku tembak warga prabumulih',823,none
+'aktor sean penn syuting film bunuh jurnalis jamal khashoggi',824,none
+'negara minta maaf tak mampu usut langgar ham',825,none
+'dvi inafis identifikasi korban temu selat malaka',826,none
+'keluarga korban tembak paniai tolak rp miliar tawar perintah',827,none
+'kubu prabowo psi semangat serang orba bukan berantas korupsi',828,none
+'kata teliti perintah ikan trauma healing korban konflik papua',829,none
+'usai tenggak miras orang lelaki tewas tikam teman minum',830,none
+'bupati ttu jemput jenazah emanuel korban tembak kkb nduga',831,none
+'surabaya raih harga online popular city guangzhou international award',832,opportunity
+'polisi china ringkus geng jual beli obat kanker ilegal',833,none
+'erick thohir ma ruf amin gerak persen nanti',834,none
+'ekor kucing selamat rumah jagal ilegal china',835,none
+'jalan tol baru kemudi minta euforia lebih',836,opportunity
+'eka kurniawan raih harga sastra internasional belanda',837,none
+'kerja jembatan nduga papua pt istaka karya tak kawal pihak aman',838,none
+'bawaslu dishub copot stiker gambar paslon capres angkot tangsel',839,none
+'aksi ampo bank jadi brasil orang bunuh',840,none
+'mobil pikap tabrak sepeda motor rumah tewas',841,none
+'bayi balut kain batik menang temu warga belakang kios',842,none
+'truk mundur batu kali angkut timpa kemudi granmax belakang hingga tewas',843,none
+'jam terombang-ambing laut mesin kapal mati abk temu lemas',844,none
+'bahar bin smith jadi sangka komentar sandiaga',845,none
+'ratus rumah pulau bangka rendam banjir hingga meter',846,none
+'bbm sulit kendara polewali mandar antre siang hingga malam',847,threat
+'pesawat sus air tergelincri lapter mappi tak korban jiwa',848,none
+'park and ride bangun terminal kampung rambutan kalideres tb simatupang',849,opportunity
+'para menang kompasianival awards',850,none
+'kompasianival kopi darat blogger kompasiana',851,none
+'normalisasi ciliwung lama baik buat warga dukung',852,opportunity
+'ketat parkir dki siap park and ride',853,opportunity
+'gubernur dki anies baswedan hingga menaker hanif sambut kompasianival',854,opportunity
+'kini tim gerak pkk gratis naik transjakarta',855,opportunity
+'anies warga kompasiana akhir enggak sempat tulis',856,none
+'karung e-ktp temu pondok kopi bawa polres',857,none
+'kisah inspiratif perempuan jaya darat laut udara kompasianival',858,none
+'begini cara hapus program jahat android',859,opportunity
+'layan digital iot telkomsel adopsi perum uri',860,threat
+'kantor situs video porno balas boikot starbucks',861,none
+'rombak ikon microsoft office jadi lebih modern',862,none
+'mediatek sesumbar chip hio p bakal ikan terobos ai',863,opportunity
+'korea selatan jerat pihak jual teknologi samsung china',864,threat
+'rupilah aplikasi buang sampah jadi rupiah buat mahasiswa semarang',865,opportunity
+'jaring hotel mariott retas juta data tamu curi',866,threat
+'fitur close friends instagram stories kini pakai semua',867,opportunity
+'prediksi jadwal rilis fitur apple airpods ikut',868,opportunity
+'galaxy as layar infinity-o masuk sertifikasi',869,opportunity
+'youtube sempat macet gara-gara video ariana grande',870,threat
+'usia tahun jumlah fakta tarik kena playstation',871,none
+'printer dadak cetak aja subscribe youtuber pewdiepie',872,threat
+'jelang harbolnas xiaomi diskon harga redmi redmi s',873,opportunity
+'ceo kalah judi triliun rupiah vendor ponsel china ancam bangkrut',874,threat
+'tiga operator korea selatan serentak luncur jaring g',875,opportunity
+'bos qualcomm damai mentah apple',876,threat
+'google hangouts tutup',877,threat
+'samsung tahu promosi galaxy note pakai iphone',878,opportunity
+'ponsel wizphone os google jual alfamart rp',879,opportunity
+'game command conquer rivals resmi rilis android ios',880,opportunity
+'tulis tangan steve jobs lelang rp juta',881,opportunity
+'ponsel layar vivo nex nongol video',882,opportunity
+'malam hari baik mati komputer tidak',883,threat
+'zombie resident evil datang game pubg mobile',884,none
+'redbus aplikasi mesan tiket bus antarkota luncur indonesia',885,none
+'sony bikin ponsel lipat layar tembus pandang',886,opportunity
+'sharebuy konsep belanja online keroyokan jd id harbolnas',887,opportunity
+'office ikon windows akan rombak',888,opportunity
+'youtuber dapat tinggi panjang',889,none
+'janji hapus konten porno tumblr bakal akses indonesia',890,opportunity
+'twitter lite klaim dongkrak jumlah di indonesia',891,opportunity
+'xl home tambah layan netflix ekspansi kota baru',892,threat
+'lihat presentasi powerpoint bakal nonton film',893,none
+'juta quora jadi korban retas',894,threat
+'bts hingga dil topik populer twitter',895,none
+'boyband k-pop kalah popularitas jokowi prabowo twitter',896,none
+'spesifikasi asus zenfone max m max pro m',897,opportunity
+'microsoft siap ramban rupa chrome bagai ganti edge',898,none
+'bocor dokumen ungkap nama ponsel layar lipat samsung',899,opportunity
+'google go aplikasi cari ringan irit internet',900,opportunity
+'tumblr akhir blokir konten pornografi mulai desember',901,opportunity
+'begini cara google dukung ekonomi digital indonesia',902,opportunity
+'google rilis fitur cari lowong kerja',903,opportunity
+'kenal hastu wijayasri sosok programer perempuan difabel indonesia',904,none
+'bose bikin kacamata pintar fitur audio ar',905,opportunity
+'google baik masalah foto tak simpan android pixel',906,opportunity
+'snapdragon teknologi g apa',907,opportunity
+'pocophone f kini rekam video slow motion lebih halus',908,opportunity
+'bos huawei tangkap polisi kanada atas minta as',909,threat
+'google buka kursus machine learning gratis developer indonesia',910,none
+'nokia resmi luncur harga rp juta',911,opportunity
+'hotel swiss sedia jasa admin instagram tamu libur',912,none
+'youtube android tembus miliar unduh',913,opportunity
+'whatsapp mulai sebar tablet android',914,opportunity
+'iphone g baru hadir',915,opportunity
+'apa lebih dana banding aplikasi dompet digital',916,opportunity
+'aplikasi youtube putar video cara otomatis',917,none
+'samsung paten smartwatch pindai sidik jari layar',918,opportunity
+'tips editing posting foto instagram',919,none
+'tahun huawei lengser samsung',920,opportunity
+'maret google allo resmi tutup',921,threat
+'video youtube populer dunia',922,none
+'foto hasil kamera dslr pakai samsung iklan galaxy a star',923,none
+'monitor k lg luncur indonesia nyambung macbook pro',924,none
+'harga oppo a indonesia turun jelang harbolnas',925,opportunity
+'xiaomi unggul apple berkat mi band',926,opportunity
+'tahun windows mampu lewat windows',927,none
+'xiaomi siap ponsel kamera megapiksel luncur januari',928,opportunity
+'wordpress resmi luncur bawa tampil blocks serba kotak',929,none
+'youtube rilis rewind skinnyindonesian gen halilintar',930,none
+'qualcomm resmi snapdragon cx chip paling ekstrim laptop',931,none
+'harga resmi iphone xr xs xs max indonesia',932,opportunity
+'samsung turun apple stagnan vendor smartphone china tanjak',933,opportunity
+'video populer youtube indonesia',934,none
+'pandora gelar rekomendasi podcast android ios',935,opportunity
+'china desak kanada bebas petinggi huawei tahan',936,threat
+'hp luncur jajar printer laptop laku ukm',937,opportunity
+'perban indonesia siap terap lanjut standar basel iii',938,none
+'kanada minta as hapus tarif baja alumunium',939,none
+'btn akad kpr nasabah',940,none
+'as-meksiko-kanada teken nafta baru trump klaim menang',941,none
+'smf kuat peran kurang beban fiskal perintah',942,none
+'brexit inggris peluang hilang tumbuh pdb',943,none
+'turki harap hubung dagang tiongkok tingkat',944,none
+'indonesia yakin akan kurang pangan',945,threat
+'fed tegas siap naik suku bunga',946,none
+'ekonomi inggris tekan akibat skenario brexit',947,none
+'data dagang pasar saham positif',948,opportunity
+'dolar as hempas poundsterling euro',949,threat
+'harga minyak dunia jatuh',950,none
+'proyek keit bekapur nilai kurang beban labuh',951,none
+'emas jangka libas perkasa dolar as',952,none
+'kerja ekspor industri furnitur tembus usd miliar',953,none
+'rupiah angkat kerja sama pemerintah-bi-swasta',954,opportunity
+'pasar saham amerika serikat mere',955,threat
+'selesai listrik ribu mw sesuai butuh',956,none
+'modalku-askrindo sinergi daya umkm',957,none
+'medco komitmen tahan produksi migas',958,none
+'tips belanja online buat generasi milenial',959,opportunity
+'dividen pajak bumn tuntut pacu ekonomi rakyat',960,none
+'danamart siap layan ukm umkm',961,opportunity
+'jokowi juta kk sambung listrik',962,none
+'pln bidik ribu kk sambung listrik cara mandiri',963,none
+'selesai tol bocimi kabar baik logistik nasional',964,opportunity
+'hormat mendiang george hw bush pasar saham libur',965,none
+'jokowi sambung listrik gratis',966,none
+'perang dagang as-tiongkok bayang bicara g',967,threat
+'laku usaha libat bahas regulasi',968,opportunity
+'kemenperin bakal promosi fesyen indonesia prancis',969,none
+'airnav indonesia bangun menara balikpapan',970,none
+'pertamina mor vi operasi spbu satu harga',971,none
+'pariwisata target jadi sumbang utama devisa indonesia',972,none
+'angin segar tunda tarif baru amerika-tiongkok',973,threat
+'iupk freeport panjang',974,none
+'ojk likuiditas perban aman',975,none
+'mandiri capital bidik startup investasi tahun depan',976,threat
+'blok masela proyek idd jadi fokus utama dwi soetjipto',977,none
+'mendag optimistis kerja ekspor baik neraca dagang',978,none
+'mandiri capital luncur venture fund',979,none
+'tekan impor temu cadang migas raksasa',980,none
+'investor pasar modal capai juta',981,none
+'gejolak suku bunga buat proyeksi tumbuh kredit sendat',982,threat
+'bekraf dorong startup lantai bursa',983,opportunity
+'rupiah makin kokoh',984,opportunity
+'menkeu siap revisi atur pajak ipo',985,threat
+'harga pertamax cs bakal turun waktu tepat',986,none
+'ojk tumbuh kredit tembus akhir',987,opportunity
+'dwi soetjipto minta tingkat cadang migas',988,none
+'inspirasi jokowi bos adaro lintas bikin kompor listrik',989,none
+'harga gabah kering tingkat tani naik',990,none
+'nilai tukar tani naik',991,none
+'menkeu kan tantang usai temu g',992,threat
+'bi optimistis relaksasi gwm genjot salur kredit',993,opportunity
+'temu g reda tegang perang dagang',994,none
+'kunjung wisman indonesia oktober capai juta',995,opportunity
+'jokowi tunjuk eks dirut pertamina jadi kepala skk migas',996,none
+'sri mulyani sindir anak usaha belum ipo',997,none
+'pesan bos imf negara anggota g',998,none
+'november harga grosir nonmigas naik persen',999,threat
+'sektor transpor komunikasi sumbang inflasi besar',1000,threat
+'bahan makan sumbang inflasi',1001,none
+'upaya perintah stabil harga butuh pokok kian solid',1002,none
+'tips aman utang',1003,threat
+'qatar potensi dongkrak harga bbm',1004,none
+'bumn utang besar capai rp triliun',1005,none
+'sasar milenial kredivo luncur pinjam tunai',1006,opportunity
+'ekonomi batam target tumbuh',1007,opportunity
+'usaha tambang izin ekspor',1008,none
+'ancora godok right issue cari dana',1009,none
+'kredivo timbang ekspansi asean',1010,opportunity
+'investasi rp triliun lahan tak pakai batam',1011,opportunity
+'ojk temu puluh fintech ilegal',1012,threat
+'emiten anabatic optimistis tumbuh kuartal iv',1013,none
+'peran penting jokowi hilir industri',1014,none
+'menteri sofyan target sertifikasi lahan lampau',1015,none
+'fintax fair bantu kembang kuat bisnis',1016,none
+'energy equity setor rp triliun negara',1017,none
+'rupiah ke level rp usd',1018,opportunity
+'luhut tegas tak ekspor bahan mentah',1019,none
+'merosot laba pertamina cuma rp triliun hingga september',1020,none
+'ojk banyak masyarakat tak paham substansi koperasi',1021,opportunity
+'potensi ekonomi laut indonesia usd triliun',1022,none
+'labuh kuala tanjung mulai diujicobakan',1023,none
+'mental usaha batu bara perlu ubah',1024,none
+'utang usaha bumn tembus rp triliun',1025,none
+'satgas waspada investasi tindak koperasi bodong',1026,none
+'pasar saham positif usai tunda tarif as-tiongkok',1027,none
+'korsel hibah usd juta korban gempa sulsel',1028,none
+'luhut hadap revolusi industri mindset ubah',1029,opportunity
+'qatar siap hengkang opec',1030,none
+'cerita sang rajin batik cirebon',1031,none
+'pertamina-tppi ekspor perdana paraxylene tiongkok',1032,none
+'pemprov peluang milik hak kelola lebih blok rok',1033,opportunity
+'apindo saran harga bbm naik tekan cad',1034,none
+'anak usaha adhi genjot bisnis huni integrasi lrt',1035,none
+'genjot ekspor pangsa pasar jelas',1036,opportunity
+'tumbuh ekonomi capai target',1037,opportunity
+'citibank suntik usd juta pelita samudera shipping',1038,none
+'hilir industri perintah harus perhati sektor hulu',1039,none
+'tips aman belanja harbolnas',1040,opportunity
+'indonesia fokus peluang janji dagang',1041,opportunity
+'kembang harga komoditas pangan dua tahun akhir',1042,none
+'kemenkeu cair dana talang bpjs sehat rp triliun',1043,none
+'setor dividen pertamina tahun depan ciut',1044,none
+'bakrie terus benah utang hingga tahun depan',1045,none
+'pesawat boeing max lion air operasi',1046,none
+'gencat senjata bukan akhir perang dagang',1047,threat
+'batal pesawat boeing jadi putus lion',1048,none
+'laba pertamina taksir tak capai target',1049,none
+'beri diskon abal-abal harbolnas bakal kena sanksi',1050,threat
+'rupiah ke level rp usd',1051,opportunity
+'transaksi harbolnas target hingga rp triliun',1052,opportunity
+'atur pungut ekspor cpo usd terbit',1053,none
+'subsidi bbm-listrik klaim signifikan gerus apbn',1054,none
+'eksplorasi giant discovery',1055,none
+'bpjs sehat suntik dana tambah rp triliun',1056,none
+'dampak positif ketidakpastian ekonomi as',1057,opportunity
+'bakrie target pltu tanjung jati a operasi',1058,none
+'proyeksi tumbuh ekonomi apindo bawah perintah',1059,none
+'produk lokal siap banjir harbolnas',1060,opportunity
+'anggar angkat honorer tunggu kemenpan rb',1061,none
+'apindo optimistis rupiah bawah rp ribu',1062,none
+'bank mandiri ambil momentum harbolnas',1063,opportunity
+'respons sri mulyani soal kepala daerah korupsi gaji kecil',1064,none
+'bjb raih harga kpk',1065,none
+'bbm satu harga hadir nias',1066,none
+'maju ritel tradisional cara digital',1067,opportunity
+'menkeu tak soal bumn banyak utang asal bayar',1068,none
+'harga bbm prediksi tetap naik',1069,none
+'btn siap ambil peran biaya rumah mbr',1070,none
+'dorong manfaat zakat bangun lanjut',1071,none
+'tekan ihsg arah bursa eksternal',1072,none
+'rupiah sentuh rp usd',1073,threat
+'akr turun harga bbm nonsubsidi rp liter',1074,none
+'fundamental lemah rupiah sentuh rp usd',1075,threat
+'optimisme konsumen tingkat',1076,opportunity
+'november defisit apbn capai',1077,threat
+'bank danamon prediksi tumbuh ekonomi',1078,opportunity
+'perintah tak cemas imbas naik harga bbm',1079,threat
+'usaha tambang keluh efek b mesin',1080,none
+'laku industri optimistis lihat peluang tahun politik',1081,opportunity
+'stok energi fosil indonesia mampu penuh butuh',1082,none
+'perintah luncur kur khusus terna rakyat',1083,none
+'resep menkeu keluar indonesia middle income trap',1084,none
+'pgn sabet harga lhkpn kpk',1085,none
+'ajar potensi kerja sama ekonomi afsel-indonesia',1086,opportunity
+'industri manufaktur siap jadi sumber utama tumbuh ekonomi',1087,opportunity
+'sbn valas terbit hingga akhir tahun',1088,none
+'terima pajak tahun taksir capai',1089,none
+'tiga sumbang besar tumbuh ekonomi dki jakarta',1090,threat
+'kemenkeu rencana anggar dorong serap belanja',1091,none
+'ekonomi dunia ibarat es krim leleh',1092,threat
+'lemah rupiah sementara',1093,threat
+'menang pilpres hadap tantang ekonomi sama',1094,threat
+'bi sentimen brexit hambat kuat rupiah',1095,threat
+'menkeu lantik andin hadiyanto jadi staf ahli',1096,none
+'industri asuransi mulai sasar tani hingga sopir angkot',1097,none
+'menteri bumn resmi kapal wisata komodo',1098,none
+'antam tunjuk orori jadi reseller resmi',1099,none
+'imbang tumbuh ekonomi',1100,threat
+'contoh selandia baru terap regulasi produk tembakau alternatif',1101,none
+'premi asuransi jiwa capai rp triliun',1102,none
+'chandra asri gelontor usd miliar bangun kompleks petrokimia',1103,none
+'strategi perintah buat terima lampau target',1104,none
+'terima negara picu naik peringkat indonesia',1105,opportunity
+'kolaborasi perban startup',1106,opportunity
+'ekonomi indonesia on the track',1107,opportunity
+'bi waspada gejolak harga natal tahun baru',1108,threat
+'bi catat pekan pertama desember inflasi',1109,threat
+'rupiah tekan ihsg mere',1110,threat
+'cadang devisa november lonjak usd miliar',1111,none
+'unit usaha blue bird group ipo tahun depan',1112,none
+'bi kan alas lemah rupiah',1113,threat
+'sdm jadi kunci transformasi ekonomi indonesia',1114,opportunity
+'darmin optimistis rupiah tetap kuat hingga akhir tahun',1115,opportunity
+'mendag harap kualitas produk fesyen lokal sejajar brand global',1116,none
+'toko fesyen global turut tingkat kualitas produk lokal',1117,none
+'bei stigma minat investor turun tahun milu salah',1118,opportunity
+'pt pii sabet asean risk awards',1119,none
+'bursa denda emiten rp juta',1120,none
+'optimalisasi aset negara jadi semangat sama',1121,none
+'bi minta siap instrumen tampung dana amnesti pajak',1122,none
+'perintah optimistis salur kur tembus rp triliun',1123,opportunity
+'usaha ukm ajak lepas saham pasar modal',1124,opportunity
+'temu opec akhir putus kurang produksi',1125,none
+'pabrik mobil listrik siap bangun karawang',1126,none
+'putus fed naik suku bunga nilai tepat',1127,none
+'opec rusia bahas mangkas produksi minyak',1128,none
+'imf desak negara dunia bangun multilateral baru',1129,none
+'bank sentral inggris siap ringan atur modal bank',1130,none
+'tuju gencat senjata trump nilai laku salah',1131,none
+'undang investor usaha yunani minta tingkat tata kelola',1132,none
+'tiongkok desak komunitas internasional proteksionisme',1133,none
+'cimb niaga syariah luncur produk umrah didik',1134,none
+'brexit hampir henti tumbuh sektor jasa inggris',1135,none
+'alas industri halal indonesia optimal',1136,none
+'tarif impor jadi perhati produsen as',1137,none
+'transformasi bni syariah digital banking',1138,none
+'awal desember data ihsg kapital pasar positif',1139,none
+'allianz latih tani saing era digital',1140,opportunity
+'hubung as-tiongkok sulit prediksi',1141,threat
+'dolar as hilang tenaga',1142,opportunity
+'harga minyak dunia lesat',1143,threat
+'menkeu sentimen positif dorong naik cadang devisa',1144,opportunity
+'kemilau emas dunia hantam dolar as',1145,none
+'cimb niaga syariah buku laba pajak rp miliar',1146,none
+'akhir minggu liar dow jones anjlok poin',1147,none
+'jelang milu nigeria informasi palsu sebar whatsapp',1148,threat
+'database hotel bobol data juta tamu ekspos',1149,threat
+'hacker retas printer minta korban ikut pewdiepie',1150,threat
+'spotify uji ubah antarmuka baru',1151,opportunity
+'aplikasi media sosial bikin remaja percaya diri',1152,opportunity
+'google batas akses karyawan proyek dragonfly',1153,opportunity
+'google henti hangouts',1154,threat
+'mediatek unggah teaser hio p',1155,none
+'huawei mate siap rilis indonesia',1156,opportunity
+'blokir as huawei gagal jadi pimpin g dunia',1157,threat
+'musim belanja sistem bayar ritel jadi target retas',1158,threat
+'perum uri andal iot telkomsel digitalisasi bisnis',1159,none
+'riset sebut shopee tokopedia paling saing',1160,threat
+'amd duga siap ryzen chipset x',1161,none
+'jd id kenal sharebuy belanja online keroyokan',1162,threat
+'airpods charger nirkabel rilis q',1163,opportunity
+'samsung galaxy s plus bekal kamera depan ganda',1164,opportunity
+'admin twitter samsung tahu pakai iphone',1165,none
+'sepakat as tiongkok tangguh atur tarif apple',1166,threat
+'tarung robot mechwarrior hadir di',1167,none
+'google play terima ubah tampil',1168,none
+'ponsel lipat microsoft luncur',1169,opportunity
+'google rencana henti hangouts',1170,threat
+'bioware beri tanda dragon age mass effect baru',1171,none
+'gigabyte z aorus ultra modal mantap intel generasi',1172,none
+'media jepang siar siar k via satelit pertama',1173,none
+'apple music beta mulai dukung tablet android',1174,opportunity
+'developer game sukses bakal lebih untung steam',1175,none
+'wearable jadi alat medis',1176,opportunity
+'vainglory bakal dukung cross-platform',1177,opportunity
+'kelola jaring bisnis lebih gampang pakai netgear insight',1178,opportunity
+'ponsel rp ribu google pasar indonesia',1179,opportunity
+'bina startup tahap lanjut jadi tema gsi scale con',1180,opportunity
+'lg boyong monitor k pertama indonesia',1181,opportunity
+'cara google bantu masyarakat era ekonomi digital',1182,opportunity
+'xiaomi redmi note pro warna lebih keren harga tarik',1183,opportunity
+'google ajak gotong royong maju indonesia',1184,opportunity
+'serang siber lambat transformasi digital asia pasifik',1185,opportunity
+'zebra technologies bawa komputasi mobile enterprise layar sentuh',1186,opportunity
+'g jadi fokus qualcomm tech summit',1187,opportunity
+'samsung galaxy as huawei nova siap muncul',1188,opportunity
+'google photos dukung mode backup express',1189,opportunity
+'dana resmi tawar layan via aplikasi mandiri',1190,none
+'gelar kampanye achi bangun sistem cloud indonesia',1191,none
+'huawei pamer emui pakai android pie',1192,opportunity
+'ponsel android g muncul',1193,opportunity
+'g siap rilis negara kembang tahun depan',1194,opportunity
+'lihat tampak logitech marvel collection',1195,none
+'samsung rilis ponsel g pertama tahun depan',1196,opportunity
+'daftar game masuk playstation awards',1197,none
+'jam tangan pintar xiaomi salip apple',1198,opportunity
+'sprint gandeng samsung garap ponsel g',1199,opportunity
+'logitech m punya edisi marvel',1200,none
+'epic games siap saing steam janji untung',1201,none
+'quora bobol data juta bocor',1202,threat
+'aplikasi jahat app store curi uang guna iphone',1203,threat
+'kenal konsep hybrid cloud microsoft azure',1204,none
+'crash team racing ctr punya versi remastered',1205,none
+'nvidia titan rtx muncul harga rp juta',1206,none
+'qualcomm rilis snapdragon',1207,opportunity
+'snapdragon punya fitur d sonic sensor',1208,opportunity
+'asus tuf gaming fx kelas rog inci',1209,none
+'asus rog zephyrus s darat indonesia harga',1210,none
+'lini anyar asus tuf gaming kuat segmen rp juta',1211,none
+'perangkat baru hp wujud dukung ukm',1212,opportunity
+'laptop anyar lenovo ekonomi kreatif',1213,none
+'g indonesia performa snapdragon pengaruh',1214,threat
+'google lens punya akses cepat album foto google drive',1215,none
+'synology umum nas -bay ds',1216,none
+'amazon music segera sedia android tv',1217,none
+'lihat rancang arsitektur snapdragon',1218,none
+'gameloft raup rp triliun game disney',1219,none
+'youtube android pasang lebih miliar kali',1220,opportunity
+'dji mavic enterprise sasar konsumen profesional indonesia',1221,none
+'whatsapp android mulai jajal tablet',1222,opportunity
+'apple resmi rilis sasis iphone xr',1223,opportunity
+'ubisoft siap lanjut far cry',1224,none
+'oneplus jadi pertama adopsi snapdragon',1225,opportunity
+'realme c main baru kelas smartphone rp juta',1226,opportunity
+'snapdragon cx senjata qualcomm saing intel pasar pc',1227,none
+'daftar game baik versi game awards',1228,none
+'microsoft adopsi chromium ramban edge',1229,none
+'danger zone mode battle royale cs go',1230,none
+'perintah jepang larang beli perangkat huawei zte',1231,threat
+'tahu percaya hambat potensi besar fintech',1232,threat
+'crash team racing hidup di',1233,none
+'lapor baru opensignal sebut telkomsel dominan',1234,none
+'google ucap pisah allo maret',1235,threat
+'ubisoft umum sekuel far cry new dawn',1236,none
+'ponsel lipat generasi z candu ponsel',1237,opportunity
+'karyawan amazon racun gegara robot',1238,threat
+'ponsel premium tahun depan rekam video hdr k',1239,opportunity
+'qualcomm snapdragon cx prosesor anyar laptop',1240,none
+'kata ai kenal inovasi conversational ai indonesia',1241,none
+'presiden ekosistem hanya online',1242,none
+'huawei ikut ramai harbolnas',1243,opportunity
+'otto hasibuan potensi rugi negara beli persen saham freeport',1316,threat
+'dpr minta bmkg bnpb lebih teliti',1317,threat
+'soal freeport pan sila nilai sendiri pro rakyat tidak',1318,none
+'jk ikut jejak keliru la nyalla',1319,none
+'kalau pilih caleg pdip tekad wakaf gaji koperasi',1320,none
+'generasi datang harus pontang-panting bayar utang beli freeport',1321,threat
+'sby jadi mentor prabowo selang lebih maju jokowi',1322,none
+'nyata sby tak perlu tanggap lebih',1323,none
+'anak krakatau erupsi sby minta warga tetap waspada',1324,threat
+'ikut ijtima ulama alas caleg pbb dukung prabowo-sandi',1325,none
+'satgas dokling prabowo sapa segera terjun lokasi bencana',1326,none
+'punya tugas tuntas kasus tni-polri boleh tarik papua',1327,none
+'ketua knpi pilih bakal jaga daya kritis pemuda',1328,none
+'dirut pt inalum bungkam tompi sok gonggong rizal ramli',1329,none
+'sby post power syndrome demokrat aria bima tegur megawati',1330,none
+'menpora henti dualisme tubuh knpi',1331,none
+'beberapa faktor jokowi bakal tinggal jauh lawan',1332,none
+'emak-emak kerah jadi jubir prabowo-sandi',1333,opportunity
+'gerindra aku potensi ganggu koalisi usung prabowo',1334,none
+'perintah jokowi jangan asal klaim bangun infrastruktur',1335,none
+'cegah curang rawan prabowo-sandi laku awas ketat',1336,none
+'indonesia punya pandang sendiri soal krisis uighur',1337,none
+'milik saham freeport bukti indonesia punah',1338,none
+'semua orang tahu jokowi presiden penuh citra',1339,none
+'soal freeport saran rizal ramli abai presiden jokowi',1340,none
+'dino patti djalal caleg punya pribadi politik',1341,none
+'putra ma ruf amin ajak rakyat tanam obat satu',1342,none
+'yel prabowo-sandi menang ala emak emak awal diskusi raya hari ibu',1343,none
+'ylki negara mana ada kategori kelas krl',1344,none
+'presiden pks jangan pikir jadi politis kaya raya',1345,none
+'menang tipis tum knpi pilih haris pertama ajak okp satu',1346,none
+'prananda paloh gus dur tauladan politik manusia',1347,none
+'sekjen demokrat jangan asal klaim infrastruktur bisa simsalabim',1348,none
+'petinggi pks temu anggota kongres as bahas masalah ham',1349,none
+'wakil ketua bpn temu prabowo-sby efek besar',1350,none
+'fahri komentar foto cak imin bareng puan hijab',1351,none
+'temu akrab prabowo sby tanda ganti presiden makin dekat',1352,none
+'oso atur bk dpd laku semua anggota',1353,none
+'demokrat arah jari tangan sby pasti jangan olah',1354,none
+'hinca demokrat lari kencang topang koalisi adil makmur',1355,none
+'usai deklarasi mcm segera ajak jokowi keliling masjid',1356,none
+'noer fajrieansyah nilai punya kapasitas satu knpi',1357,none
+'perintah tegas sikap keras xinjiang',1358,none
+'sby prabowo temu fahri hamzah perang total',1359,none
+'golkar dki mulai sosialisasi rambu milu kader',1360,none
+'kritikus lereng rapi aura menang prabowo kian asa',1361,none
+'kpk lari maraton telusur uang asi games',1362,none
+'kader nasdem usir kawal surya paloh jember',1363,none
+'puji yenny wahid jokowi lewat matang gosong',1364,none
+'pks minta gerindra gencar kenal calon wagub dki',1365,none
+'prabowo lama pimpin sby indonesia ada gejolak',1366,none
+'cegah curang milu bpn lantik satgas ibukota',1367,none
+'sby khawatir jadi curang milu',1368,none
+'sby minta prabowo kampanye hingga pelosok daerah jelas visi misi',1369,none
+'ingat ulang tahun hanura santun ribu anak yatim',1370,opportunity
+'sby kami jangan ganggu',1371,none
+'benar amerika menang suriah',1372,none
+'prabowo tidak pernah ragu komitmen pak sby',1373,none
+'pesan sby prabowo usai rapat koalisi',1374,none
+'pdip insiden potong nisan salib tak perlu besar',1375,none
+'menteri esdm swat kolaborasi gelar energi expo',1376,opportunity
+'freeport tagih rp miliar pakai hutan lindung izin',1377,none
+'tani tembakau ketar-ketir',1378,none
+'industri pulp kertas hantu isu dumping',1379,none
+'ap i sunti rp t bumn',1380,none
+'luhut samsung tarik bangun pabrik indonesia',1381,opportunity
+'bijak pungut cukai buat ngerem sampah plastik',1382,none
+'huntara bangun menteri pupr mulai tempat',1383,none
+'menaker blk kemnaker tak kalah blk taiwan',1384,none
+'pln resmi integrasi data paja djp',1385,none
+'pgn klaim ikut prosedur proyek kalija i',1386,none
+'imbau wapres pmi banyak lapang kerja negeri sendiri',1387,none
+'wapres kerja migran milik terampil',1388,threat
+'sukabumi wapres jk serah kartu lindung bpjs-tk kerja migran',1389,none
+'bpkn panjang tahun kasus adu konsumen banyak sektor properti',1390,threat
+'jembatan darurat padang-bukittinggi lalu satu jalur',1391,none
+'tingkat konservasi lahan air menteri pupr tanam ribu pohon serentak provinsi',1392,none
+'menteri pupr selesai jumlah bangun infrastruktur aceh',1393,none
+'ekspor non migas indonesia turun',1394,none
+'nilai ekspor impor indonesia turun bulan november',1395,threat
+'temu wamen haji saudi patuh dorong rekam biometrik di bandara',1396,threat
+'bi cuma turis asing',1397,none
+'krakatau steel happy',1398,none
+'bumn raya natal bagi santun anak panti asuh sulawesi utara',1399,none
+'harga sawit turun drastis jokowi tanam jengkol petai hingga manggis',1400,none
+'kemenag waswas vfs tasheel repot calon jamaah umrah',1401,none
+'perintah perlu terap standar transparansi kelola ikan',1402,none
+'lindung merek lokal maksimal kasus sengketa asing',1403,threat
+'usaha batubara kelimpungan',1404,none
+'ri cuma ampas kotor turis china',1405,threat
+'terang asuransi tugu sesat keluarga korban lion air jt',1406,none
+'bendung rotiklot mulai isi air',1407,none
+'tahun perintah indonesia dapat utang bilateral apa',1408,none
+'reklamasi teluk jakarta bukti negara asai taipan',1409,threat
+'ubah kapasitas bagasi lion air wings air tunda hingga januari',1410,none
+'bumn terlalu banyak utang proyek infrastruktur lebih',1411,threat
+'kini ribu rumah dogiyai bebas gelap ltshe',1412,none
+'usaha plat merah sedang susah alih energi baru',1413,none
+'genjot ekonomi kalteng pln operasi gardu induk pangkal bun',1414,opportunity
+'bumn lebih baik bangun kerja sama ketimbang tumpuk utang',1415,none
+'cloud computing cipta akses sama hadap teknologi',1416,opportunity
+'menteri jonan listrik jateng diy aman natal',1417,none
+'jahat perintah rusak infrastruktur bandung pikir kali',1418,none
+'bpjph anggap tak realistis target rp triliun',1419,none
+'bos bi tak patah arang',1420,none
+'korban lion air gugat boeing juta dolar',1421,none
+'wapres dorong dana haji segera investasi',1422,none
+'tak jadi bubar kepala bp batam rangkap walikota',1423,none
+'kecewa jokowi bubar badan usaha batam',1424,none
+'ekonom perintah geser revolusi sdm inovasi teknologi',1425,opportunity
+'menteri pupr bangun jembatan pulih lalu lintas padang-bukittinggi',1426,opportunity
+'menteri pupr terima medali emas simpul jaring geospasial',1427,none
+'minim perempuan terjun sektor maritim',1428,none
+'jokowi jangan mark up',1429,none
+'ap i genjot sektor pariwisata ntt',1430,none
+'impor bengkak jokowi tak perlu berkeluh-kesah ganti mendag',1431,threat
+'luhut bahas ekonomi blue carbon konferensi ubah iklim polandia',1432,threat
+'menteri pupr raih harga ombudsman',1433,none
+'sektor jasa jadi raja tahun',1434,threat
+'kunjung seoul bpjs ketenagakerjaan jamin lindung pmi',1435,none
+'banten jenazah identifikasi jenazah ambil pihak keluarga',1436,none
+'misa akhir jemaat katedral minta amal sila empat pancasila',1437,none
+'tsunami selat sunda enam desa dua pulau isolir',1438,threat
+'menkes stok obat korban tsunami cukup',1439,none
+'korban tinggal banyak pandeglang orang lampung selatan orang',1440,threat
+'berantas minum alkohol oplos desak laku',1441,none
+'rawan gojo salur bantu korban tsunami',1442,none
+'bawa truk bantu polda metro buka posko manusia pandeglang',1443,none
+'tiada ali shahab',1444,none
+'tinggi tsunami selat sunda pengaruh proses evakuasi korban',1445,threat
+'tim selamat evakuasi jenazah apung laut',1446,none
+'rsud pandeglang terima lemari dingin jenazah',1447,none
+'hanneke jadi gereja immanuel tempat ibadah favorit',1448,none
+'empat ekor anjing lacak kerah cari korban tsunami vila mutiara',1449,threat
+'kemenag ajak masyarakat jadi pelopor rukun',1450,opportunity
+'enam desa pandeglang bisa tembus',1451,threat
+'tum knpi dengar keluh ungsi pandeglang',1452,none
+'bukan bencana nasional pemda sanggup pulih dampak tsunami selat sunda',1453,threat
+'knpi kirim bantu ungsi banten',1454,none
+'masa tanggap darurat tsunami selat sunda tetap hari',1455,threat
+'bnpb prediksi jumlah korban tsunami selat sunda terus tambah',1456,none
+'pupr turun alat berat sih puing bangun lampung selatan',1457,none
+'uskup agung jakarta agama alat penting politik',1458,none
+'update bnpb tinggal luka masih hilang',1459,none
+'uskup agung jakarta galang dana korban tsunami selat sunda',1460,threat
+'satu korban tinggal temu selasa pagi',1461,none
+'generasi muda siap hadap revolusi industri',1462,opportunity
+'menit drama anak peduli bencana tsunami',1463,none
+'uskup agung jakarta umat katolik boleh pecah belah bangsa',1464,none
+'ingat hari ibu istri dubes negara sahabat kuliner italia rasa indonesia',1465,none
+'polda banten minta masyarakat raya tahun baru pantai',1466,threat
+'khutbah bahasa belanda hilang gereja immanuel gambir',1467,none
+'jabat kominfo zawo zambu misa natal katedral',1468,none
+'polda banten fokus evakuasi camat sumur',1469,none
+'natal gereja immanuel jaga ketat baracuda siaga',1470,none
+'pln beri bantu medis nonmedis korban tsunami',1471,none
+'misa natal katedral doa korban tsunami selat sunda',1472,none
+'drama tsunami selat sunda misa keluarga katedral',1473,none
+'polda banten tunggu keluarga ambil jenazah rsud pandeglang',1474,none
+'misa natal katedral jakarta padat ribu jemaat',1475,opportunity
+'korban tsunami data bpjs ketenagakerjaan',1476,none
+'panglima tni jamin raya natal aman',1477,opportunity
+'terjun busana sinterklas tni-polri pecah rekor muri',1478,opportunity
+'pemprov dki harap ribu umat kristiani hadir natal sama',1479,opportunity
+'pastor kesaryanto sih hati kotor hidup',1480,none
+'pesisir pandeglang dampak paling parah tsunami',1481,threat
+'kapolri panglima tni tinjau aman tiga gereja jakpus',1482,opportunity
+'pasien tangan rumkitlap marinir hari pertama',1483,none
+'aman natal ibu kota jalan baik',1484,opportunity
+'duka cita as terus monitor tangan tsunami',1485,none
+'kirim pesan lewat jokowi presiden china ikut duka cita',1486,none
+'luhut pandjaitan panggil ahli cari bukti tsunami selat sunda',1487,threat
+'orang pria teriak hidup ahok anies gereja paulus',1488,none
+'bnpb catat korban tinggal akibat tsunami orang',1489,none
+'fraksi pks galang dana bantu korban tsunami',1490,none
+'tak capai tengah plus satu waktu kongres knpi putar belum',1491,none
+'presiden jokowi instruksi didik bencana',1492,none
+'alas kuat saddam mundur ketua umum pb hmi',1493,none
+'gereja st andreas kim taegon gubernur anies pesan sederhana',1494,none
+'ada identitas antemortem minim jenazah tsunami banten identifikasi',1495,none
+'ott kemenpora gerindra minta kpk geledah ruang kerja imam nahrawi',1496,none
+'suap kemenpora makin bukti ucap prabowo',1497,none
+'bareskrim panggil manager madura fc kait atur skor',1498,none
+'lapor ali mochtar ngabalin kecewa bareskrim',1499,none
+'ott hibah kemenpora kpk desak periksa menteri imam nahrawi',1500,none
+'lima sangka suap koni kemenpora tahan rutan pisah',1501,none
+'kpk periksa mantan gubernur jabar bagai saksi',1502,none
+'duit operasional koni korupsi pegawai bulan tak terima gaji',1503,none
+'hakim tipikor cabut hak politik enam legislator malang',1504,none
+'pimpin kpk asisten pribadi menpora indikasi punya peran signifikan',1505,none
+'asisten pribadi menpora turut periksa kpk',1506,none
+'anak buah menteri imam nahrawi minta fee rp miliar',1507,none
+'kpk aman uang tunai miliar rupiah buah mobil',1508,none
+'komisi iii bakal klarifikasi polri kait sp gunawan jusuf',1509,none
+'kpk tetap lima sangka',1510,none
+'polisi boleh kalah tuntas kasus aniaya bahar bin smith',1511,none
+'langkah orangtua korban lapor bahar bin smith apresiasi',1512,none
+'kpk siap status hukum hasil ott kemenpora',1513,none
+'presiden jokowi kalah gugat perkara wajib kerja dokter spesialis',1514,none
+'bahar bin smith aktor intelektual keroyok remaja',1515,none
+'utang negara bukan ranah kpk lapor eggi sudjana tak ditindaklanjuti',1516,none
+'bahar bin smith lapor kalau rugi bukan main hakim sendiri',1517,none
+'kpk ott banyak panjang sejarah',1518,none
+'bahar bin smith suruh korban duel lapang tonton santri',1519,none
+'kpk mau terap sanksi korporasi tak ikut lelang',1520,none
+'proses hukum rj lino kpk hambat data harga alat bukti',1521,none
+'kasus suap paling banyak tangan kpk lama',1522,none
+'pimpin kpk lhkpn anggota dewan daerah rendah',1523,none
+'edar rekam suara bahar bin smith isi alas aniaya remaja',1524,none
+'praperadilan chuck tolak haris azhar janji bongkar duga korupsi jagung',1525,none
+'ketua kpk lapor kerja bagai bentuk transparansi',1526,none
+'kpk periksa empat sangka suap dprd kalteng',1527,none
+'keluarga minta bunuh acu hukum mati',1528,none
+'kpk aman uang tunai rp juta buah kartu atm',1529,none
+'kpk segel satu ruang kemenpora',1530,none
+'habib bahar duga rencana aniaya anak bawah umur',1531,none
+'sesmenpora deputi iv aman kpk',1532,none
+'polisi tak habib bahar lima anak buah turut tahan',1533,none
+'sembilan orang aman kpk kini periksa intensif',1534,none
+'kpk benar ott jabat kemenpora kait kasus dana hibah koni',1535,none
+'satgas saber pungli tegah kasus enclave kek mandalika',1536,none
+'mabes polri benar bahar bin smith tahan polda jabar',1537,none
+'polda jabar tahan bahar bin smith atas kasus aniaya',1538,none
+'satu ruang kemenpora segel kpk',1539,none
+'delapan terima suap gatot siap sidang',1540,none
+'setya novanto prihatin keponakan vonis berat',1541,none
+'taufik kurniawan gairah jelas kasus',1542,none
+'bareskrim pssi segera bentuk satgas berantas mafia skor',1543,none
+'serikat kerja jict tanya proses hukum rj lino kpk',1544,none
+'lima orang kait proyek fiktif waskita karya cegah luar negeri',1545,none
+'berkas perkara habib bahar serah jpu pekan depan',1546,none
+'setnov hidup penjara di pesantren',1547,none
+'tangkap bupati irvan kpk piala warga cianjur',1548,none
+'setya novanto tahu bilik cinta sukamiskin',1549,none
+'taufik kurniawan jalan periksa bagai sangka',1550,none
+'sebut beri suap tiga petinggi swasta saksi idrus marham',1551,none
+'banyak nang minta hukum tunda',1552,none
+'dirut jasa tirta ii periksa perdana bagai sangka kpk',1553,none
+'yusril ihza bela maghfirah ibu tiga bayi kembar rutan bireun',1554,none
+'ungkap korupsi infrastruktur kpk geledah jumlah tempat jakarta surabaya',1555,none
+'surya paloh tak masalah tgb gabung golkar',1556,none
+'delegasi uni eropa sambang nasdem',1557,none
+'bpn prabowo-sandi indonesia punya ekspor andal',1558,opportunity
+'bima arya apresiasi bijak infrastruktur jokowi',1559,opportunity
+'bpn prabowo-sandi aku terima negara lebih target',1560,opportunity
+'debat capres kerah massa',1561,none
+'agung yulianto klaim cocok jadi damping anies',1562,none
+'isu poligami tarik simpati perempuan',1563,none
+'semua tokoh politik tiru',1564,none
+'narasi indonesia punah peluru kosong',1565,none
+'luhut jangan asal ngomong indonesia punah',1566,none
+'demokrat tuding institusi siluman',1567,none
+'demokrat kecam nyata wiranto kait rusa baliho',1568,none
+'psi poligami daya perempuan',1569,none
+'akhir desember uu pesantren bawa dpr',1570,none
+'megawati hari ibu momentum gera politik perempuan',1571,none
+'keluarga benteng depan cegah penyalahgunaan narkoba',1572,none
+'bawaslu polri selidik rusa atribut demokrat',1573,none
+'wiranto nyata prabowo ancam serius',1574,none
+'perintah nilai upaya sejahtera prajurit',1575,none
+'naik tunjang babinsa tak pengaruh suara jokowi',1576,none
+'jokowi beda indonesia anugerah',1577,none
+'demokrat gelar rapat darurat rumah sby',1578,none
+'surya paloh sowan ulama jember',1579,none
+'nasihat fraksi gerindra dprd dki tinggal',1580,none
+'kemendagri luncur layan daring',1581,none
+'daulat buah',1582,none
+'rumah gera tolak orde baru',1583,none
+'reklame raksasa raib psi ambil langkah hukum',1584,none
+'presiden jokowi ikan naik tunjang babinsa',1585,none
+'nyata grace natalie soal poligami',1586,none
+'tgb resmi gabung nasdem',1587,none
+'surya paloh swasembada bawang putih',1588,none
+'andi arief laku rusa aku suruh pdip',1589,none
+'bawaslu minta usut dalang usak atribut demokrat',1590,none
+'psi yakin isu poligami tak ganggu jokowi',1591,none
+'psi sebut partai perempuan',1592,none
+'gerindra minta psi ribut prostitusi ketimbang poligami',1593,none
+'milenial tantang kembang industri pop kultur indonesia',1594,opportunity
+'tgb tegas komitmen nahdlatul wathan rawat nkri',1595,none
+'santri minta jadi juru terang islam',1596,none
+'surya paloh beri kuliah bangsa ponpes nahdlatul wathan',1597,none
+'nasdem usul tokoh muda bagai wagub dki',1598,none
+'surya paloh ingat penting nilai pancasila',1599,none
+'survei mayoritas warga tolak perda agama',1600,none
+'perintah minta tindak tegas kkb papua',1601,none
+'surya paloh ingat penting siap generasi terus',1602,none
+'presiden janji cepat bahas ruu pesantren',1603,none
+'surya paloh beri kuliah umum bangsa lombok',1604,none
+'kerja dpr ajaib',1605,none
+'erick mimpi indonesia jadi tuan rumah olimpiade',1606,opportunity
+'jokowi heran marak umpat kasar',1607,none
+'perintah minta timbang usul operasi militer papua',1608,none
+'kalla kes sederhana jokowi',1609,none
+'putus mk kabul uji materi uu kawin apresiasi',1610,none
+'indonesia tegas komitmen terap janji paris',1611,none
+'perempuan muhammadiyah dukung larang poligami',1612,none
+'dirjen pfm fokus tingkat kualitas layan bansos',1613,none
+'jokowi calon pimpin suguh adu visi misi',1614,none
+'harap mohammad nuh wardiman museum didik',1615,none
+'empat mantan menteri didik reuni senayan',1616,none
+'alumni ui bangun sekolah tahan gempa lombok',1617,opportunity
+'jokowi ribu sertifikat tanah jakut',1618,opportunity
+'ppkd di tangan kemendikbud',1619,none
+'anies guru madrasah jadi didik abad',1620,none
+'polri lapang tembak senayan pindah',1621,none
+'didik kelas internasional hadir surabaya',1622,none
+'proyektil peluru ruang vivi uji balistik',1623,none
+'menristekdikti isyarat moratorium jumlah prodi lptk',1624,none
+'vivi sempat tak percaya lubang ruang tembak',1625,none
+'uai lulus cum laude bonus naik haji',1626,none
+'lubang baru gedung dpr sisa tembak senin',1627,none
+'jokowi kaget klaim sakit jantung rp triliun',1628,none
+'pgmi dorong madrasah sejajar sekolah umum',1629,none
+'napi kabur palu kembali',1630,none
+'polisi bawa satu kotak lokasi tembak dpr',1631,none
+'dirjen pfm fokus tingkat kualitas layan bansos',1632,none
+'jokowi calon pimpin suguh adu visi misi',1633,none
+'harap mohammad nuh wardiman museum didik',1634,none
+'empat mantan menteri didik reuni senayan',1635,none
+'alumni ui bangun sekolah tahan gempa lombok',1636,opportunity
+'jokowi ribu sertifikat tanah jakut',1637,opportunity
+'ppkd di tangan kemendikbud',1638,none
+'anies guru madrasah jadi didik abad',1639,none
+'polri lapang tembak senayan pindah',1640,none
+'didik kelas internasional hadir surabaya',1641,none
+'proyektil peluru ruang vivi uji balistik',1642,none
+'menristekdikti isyarat moratorium jumlah prodi lptk',1643,none
+'vivi sempat tak percaya lubang ruang tembak',1644,none
+'uai lulus cum laude bonus naik haji',1645,none
+'lubang baru gedung dpr sisa tembak senin',1646,none
+'jokowi kaget klaim sakit jantung rp triliun',1647,none
+'pgmi dorong madrasah sejajar sekolah umum',1648,none
+'napi kabur palu kembali',1649,none
+'polisi bawa satu kotak lokasi tembak dpr',1650,none
+'dirjen pfm fokus tingkat kualitas layan bansos',1651,none
+'jokowi calon pimpin suguh adu visi misi',1652,none
+'harap mohammad nuh wardiman museum didik',1653,none
+'empat mantan menteri didik reuni senayan',1654,none
+'alumni ui bangun sekolah tahan gempa lombok',1655,opportunity
+'jokowi ribu sertifikat tanah jakut',1656,opportunity
+'ppkd di tangan kemendikbud',1657,none
+'anies guru madrasah jadi didik abad',1658,none
+'polri lapang tembak senayan pindah',1659,none
+'didik kelas internasional hadir surabaya',1660,none
+'proyektil peluru ruang vivi uji balistik',1661,none
+'menristekdikti isyarat moratorium jumlah prodi lptk',1662,none
+'vivi sempat tak percaya lubang ruang tembak',1663,none
+'uai lulus cum laude bonus naik haji',1664,none
+'lubang baru gedung dpr sisa tembak senin',1665,none
+'jokowi kaget klaim sakit jantung rp triliun',1666,none
+'pgmi dorong madrasah sejajar sekolah umum',1667,none
+'napi kabur palu kembali',1668,none
+'polisi bawa satu kotak lokasi tembak dpr',1669,none
+'augie fantinus segera sidang',1670,none
+'polisi sempat usut kasus atur skor bola',1671,none
+'shinta senang rp juta bantu lari eddy',1672,none
+'kpk bidik anggota dpr di kasus bakamla',1673,none
+'satgas mafia bola kerja tahun depan',1674,none
+'kader pdip dominasi daftar ott kpk',1675,none
+'iphone x jadi licin lari eddy sindoro',1676,none
+'peran imam nahrawi duga suap kemenpora signifikan',1677,none
+'indonesia gandeng swiss lacak uang koruptor',1678,none
+'direktur sdm pt adhi karya periksa kpk',1679,none
+'acara tagih selesai berkas perkara ratna',1680,none
+'direktur uang waskita wado energi garap kpk',1681,none
+'ahmad heryawan panggil kpk',1682,none
+'lima sangka suap kemenpora tahan',1683,none
+'ditjen pas remisi ahok tunggu sk menkumham',1684,none
+'ott dana hibah koni tak ganggu prestasi atlet',1685,none
+'kpk indikasi duga korupsi selenggara asi games',1686,none
+'kasus rj lino rampung ganti pimpin kpk',1687,none
+'jabat kemenpora jadi sangka suap dana hibah koni',1688,none
+'kpk endus duga korupsi di kemenpora',1689,none
+'peran pt waskita proyek fiktif selidik',1690,none
+'kpk minta beri remisi ketat',1691,none
+'eks petinggi universitas udayana tuntut tahun bui',1692,none
+'ott panjang cetak sejarah',1693,none
+'habib bahar aktor utama aniaya anak',1694,none
+'wartawan minta lebih sensitif hadap berita anak',1695,none
+'kode suap meikarta santa tina toon',1696,none
+'izin meikarta sempat bahas kemendagri',1697,threat
+'korupsi dana hibah masuk rekening jabat kemenpora',1698,none
+'billy sindoro dikdawa suap bupati bekas rp miliar',1699,none
+'legislator daerah paling malas lapor harta kaya',1700,none
+'jokowi blak-blakan soal kriminalisasi ulama madura',1701,none
+'kadiv p perum jasa tirta ii periksa kpk',1702,none
+'bukti temu dirut pln sangka tajam',1703,none
+'praperadilan jaksa chuck suryosumpeno tolak',1704,none
+'deputi iv prestasi olahraga duga libat korupsi kemenpora',1705,none
+'uang rp juta aman ott kemenpora',1706,none
+'ott duga kait dana hibah koni',1707,none
+'kpk kabar tangkap jabat kemenpora',1708,none
+'ahmad sudiro pilih jadi ketua umum badapski',1709,none
+'polri bentuk satgas berantas mafia sepak bola',1710,none
+'kpk tetap bupati mojokerto sangka cuci uang',1711,none
+'taufik ungkap alir suap pan',1712,none
+'kpk kumpul bukti jerat dirut pln',1713,none
+'novanto tak tahu bilik asmara',1714,none
+'habib bahar periksa atas kasus keras anak',1715,none
+'novanto tak tahu bakal guyur rp miliar',1716,none
+'kotjo sebut novanto jasa proyek pltu riau-i',1717,none
+'empat petinggi pt waskita karya cegah',1718,none
+'novanto prihatin irvanto hukum tahun penjara',1719,none
+'berkas perkara bahar smith segera rampung',1720,none
+'dalang usak mapolsek ciracas cari',1721,threat
+'jumlah petinggi waskita langsung periksa intensif',1722,none
+'petinggi pt smelting periksa kasus suap pltu riau-i',1723,none
+'novanto johannes kotjo saksi eni',1724,none
+'kpk bidik pt waskita karya korupsi proyek',1725,none
+'sangka bantah satu adegan rekonstruksi keroyok tni ciracas',1726,none
+'bahan baku sabu rp m musnah',1727,none
+'tak situ tangerang selatan sertifikat',1728,threat
+'kartu merah pemkot tangsel hari air dunia',1729,threat
+'bangun bendung paselloreng harap selesai',1730,opportunity
+'butuh sinergi perintah pusat daerah sukses unbk siak',1731,opportunity
+'ribu rumah mamuju rendam banjir',1732,threat
+'susun apbdes kerap standar ganda',1733,none
+'bpom kepri tarik tiga produk sarden duga kandung cacing',1734,none
+'labuh sulut jadi jalur selundup',1735,none
+'syahrul yasin limpo gabung nasdem',1736,none
+'ap ii kick andy foundation kaki palsu tangerang',1737,none
+'hari matahari tepat atas kepala',1738,none
+'kendara bupati abdul latif simpan rupbasan tangerang',1739,none
+'polda sulsel enggan gegabah usut kasus abu tours',1740,none
+'limbah jagung sumbawa lirik negara',1741,none
+'sumur resap bantu pulih sumber mata air senjoyo',1742,none
+'wapres resmi gerai pmi manado',1743,opportunity
+'sumbawa target produksi jagung juta ton',1744,none
+'kg bombai nigeria cegah masuk indonesia',1745,none
+'bahan baku sabu rp m musnah',1746,none
+'tak situ tangerang selatan sertifikat',1747,threat
+'kartu merah pemkot tangsel hari air dunia',1748,threat
+'bangun bendung paselloreng harap selesai',1749,opportunity
+'butuh sinergi perintah pusat daerah sukses unbk siak',1750,opportunity
+'ribu rumah mamuju rendam banjir',1751,threat
+'susun apbdes kerap standar ganda',1752,none
+'bpom kepri tarik tiga produk sarden duga kandung cacing',1753,none
+'labuh sulut jadi jalur selundup',1754,none
+'syahrul yasin limpo gabung nasdem',1755,none
+'ap ii kick andy foundation kaki palsu tangerang',1756,none
+'hari matahari tepat atas kepala',1757,none
+'kendara bupati abdul latif simpan rupbasan tangerang',1758,none
+'polda sulsel enggan gegabah usut kasus abu tours',1759,none
+'limbah jagung sumbawa lirik negara',1760,none
+'sumur resap bantu pulih sumber mata air senjoyo',1761,none
+'wapres resmi gerai pmi manado',1762,opportunity
+'sumbawa target produksi jagung juta ton',1763,none
+'kg bombai nigeria cegah masuk indonesia',1764,none
+'bahan baku sabu rp m musnah',1765,none
+'tak situ tangerang selatan sertifikat',1766,threat
+'kartu merah pemkot tangsel hari air dunia',1767,threat
+'bangun bendung paselloreng harap selesai',1768,opportunity
+'butuh sinergi perintah pusat daerah sukses unbk siak',1769,opportunity
+'ribu rumah mamuju rendam banjir',1770,threat
+'susun apbdes kerap standar ganda',1771,none
+'bpom kepri tarik tiga produk sarden duga kandung cacing',1772,none
+'labuh sulut jadi jalur selundup',1773,none
+'syahrul yasin limpo gabung nasdem',1774,none
+'ap ii kick andy foundation kaki palsu tangerang',1775,none
+'hari matahari tepat atas kepala',1776,none
+'kendara bupati abdul latif simpan rupbasan tangerang',1777,none
+'polda sulsel enggan gegabah usut kasus abu tours',1778,none
+'limbah jagung sumbawa lirik negara',1779,none
+'sumur resap bantu pulih sumber mata air senjoyo',1780,none
+'wapres resmi gerai pmi manado',1781,opportunity
+'sumbawa target produksi jagung juta ton',1782,none
+'kg bombai nigeria cegah masuk indonesia',1783,none

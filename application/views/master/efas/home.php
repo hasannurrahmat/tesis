@@ -1,5 +1,3 @@
-
-	
 <html>
 	<head>
 		<title></title>
@@ -205,6 +203,8 @@
 							  </div>
 
 							</div>
+
+							<a href="<?php echo base_url();?>master/efas/python_exec/"><button class="btn btn-success pull-right">python</button></a>
 						</div>
 					</div>
 				</div>

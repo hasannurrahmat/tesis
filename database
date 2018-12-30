@@ -43,6 +43,7 @@ create table berita(
 	id_berita int primary key auto_increment,
 	id_topik_situs int,
 	berita text,
+	url text,
 	tanggal_terbit date
 );
 
@@ -126,3 +127,63 @@ insert into topik values ('', 'Sosial');
 insert into topik values ('', 'Technology');
 insert into topik values ('', 'Legal');
 insert into topik values ('', 'Environment');
+
+ALTER TABLE topik_situs
+    ADD CONSTRAINT fk_topik
+    FOREIGN KEY (id_topik)
+    REFERENCES topik(id_topik);
+
+ALTER TABLE topik_situs
+    ADD CONSTRAINT fk_situs
+    FOREIGN KEY (id_situs)
+    REFERENCES situs(id_situs);
+
+ALTER TABLE berita
+    ADD CONSTRAINT fk_topik_situs
+    FOREIGN KEY (id_topik_situs)
+    REFERENCES topik_situs(id_topik_situs);
+
+ALTER TABLE user
+    ADD CONSTRAINT fk_group_user
+    FOREIGN KEY (id_group_user)
+    REFERENCES group_user(id_group_user);
+
+ALTER TABLE term_testing_data
+    ADD CONSTRAINT fk_testing_data
+    FOREIGN KEY (id_testing_data)
+    REFERENCES testing_data(id_testing_data);
+
+ALTER TABLE term_training_data
+    ADD CONSTRAINT fk_training_data
+    FOREIGN KEY (id_training_data)
+    REFERENCES training_data(id_training_data);
+
+ALTER TABLE testing_data
+    ADD CONSTRAINT fk_berita
+    FOREIGN KEY (id_berita)
+    REFERENCES berita(id_berita);
+
+ALTER TABLE testing_data
+    ADD CONSTRAINT fk_kelas
+    FOREIGN KEY (id_kelas)
+    REFERENCES kelas(id_kelas);
+
+ALTER TABLE training_data
+    ADD CONSTRAINT fk_berita_training
+    FOREIGN KEY (id_berita)
+    REFERENCES berita(id_berita);
+
+ALTER TABLE training_data
+    ADD CONSTRAINT fk_kelas_training
+    FOREIGN KEY (id_kelas)
+    REFERENCES kelas(id_kelas);
+
+ALTER TABLE efas
+    ADD CONSTRAINT fk_berita_efas
+    FOREIGN KEY (id_berita)
+    REFERENCES berita(id_berita);
+
+ALTER TABLE efas
+    ADD CONSTRAINT fk_kelas_efas
+    FOREIGN KEY (id_kelas)
+    REFERENCES kelas(id_kelas);

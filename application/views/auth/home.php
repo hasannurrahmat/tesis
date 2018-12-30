@@ -54,11 +54,11 @@
                      <!-- /.panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading">Data Berita Online</div>
-                        <div class="panel-body">
+                        <div class="panel-body" style="min-height: 67%; max-height: 67%;">
                         	<table class="table table-borderless table-condensed table-responsive">
                         		<tr>
-                        			<td class="text-center"><h4>Persentase Jumlah Berita per Situs</h4></td>
-                        			<td class="text-center"><h4>Persentase Jumlah Berita per Topik</h4></td>
+                        			<td class="text-center"><h4>Persentase Jumlah Berita per Situs<br>(Data Training dan Testing)</h4></td>
+                        			<td class="text-center"><h4>Persentase Jumlah Berita per Topik<br>(Data Training dan Testing)</h4></td>
                         		</tr>
                         		<tr>
                         			<td width="50%"><div id="chart1" style="height:300px;"></div></td>

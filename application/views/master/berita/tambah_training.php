@@ -16,7 +16,7 @@
 					<div class="panel panel-default">
 						<div class="panel-body">
 							<div class="page-header">
-								<h3>Tambah Berita</h3>
+								<h3>Tambah Data Training</h3>
 							
 							</div>
 							<form class="form-horizontal" role="form" action ="<?php echo base_url(); ?>master/berita/submit" method="POST" enctype="multipart/form-data">
@@ -63,7 +63,8 @@
 								<div class="form-group">
 									<label class="col-sm-2 control-label">Page<font color="red">**</font></label>
 									<div class="col-sm-10">
-									<input type="number" class="form-control" name="page" value=1>
+										<input type="hidden" class="form-control" name="jenis" value=1>
+										<input type="number" class="form-control" name="page" value=1>
 									</div>
 								</div>
 								<div class="form-group">
