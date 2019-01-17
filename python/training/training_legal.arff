@@ -1,0 +1,124 @@
+@relation training_legal
+
+@attribute id_training_data numeric
+@attribute term string
+@attribute training_class {Opportunity,Threat,None}
+
+@data
+1513,'izin meikarta sempat bahas kemendagri',Threat
+1537,'dalang usak mapolsek ciracas cari',Threat
+1312,'ott kemenpora gerindra minta kpk geledah ruang kerja imam nahrawi',None
+1313,'suap kemenpora makin bukti ucap prabowo',None
+1314,'bareskrim panggil manager madura fc kait atur skor',None
+1315,'lapor ali mochtar ngabalin kecewa bareskrim',None
+1316,'ott hibah kemenpora kpk desak periksa menteri imam nahrawi',None
+1317,'lima sangka suap koni kemenpora tahan rutan pisah',None
+1318,'kpk periksa mantan gubernur jabar bagai saksi',None
+1319,'duit operasional koni korupsi pegawai bulan tak terima gaji',None
+1320,'hakim tipikor cabut hak politik enam legislator malang',None
+1321,'pimpin kpk asisten pribadi menpora indikasi punya peran signifikan',None
+1322,'asisten pribadi menpora turut periksa kpk',None
+1323,'anak buah menteri imam nahrawi minta fee rp miliar',None
+1324,'kpk aman uang tunai miliar rupiah buah mobil',None
+1325,'komisi iii bakal klarifikasi polri kait sp gunawan jusuf',None
+1326,'kpk tetap lima sangka',None
+1327,'polisi boleh kalah tuntas kasus aniaya bahar bin smith',None
+1328,'langkah orangtua korban lapor bahar bin smith apresiasi',Opportunity
+1329,'kpk siap status hukum hasil ott kemenpora',None
+1330,'presiden jokowi kalah gugat perkara wajib kerja dokter spesialis',None
+1331,'bahar bin smith aktor intelektual keroyok remaja',None
+1332,'utang negara bukan ranah kpk lapor eggi sudjana tak ditindaklanjuti',None
+1333,'bahar bin smith lapor kalau rugi bukan main hakim sendiri',None
+1334,'kpk ott banyak panjang sejarah',None
+1335,'bahar bin smith suruh korban duel lapang tonton santri',None
+1336,'kpk mau terap sanksi korporasi tak ikut lelang',Opportunity
+1337,'proses hukum rj lino kpk hambat data harga alat bukti',None
+1338,'kasus suap paling banyak tangan kpk lama',None
+1339,'pimpin kpk lhkpn anggota dewan daerah rendah',None
+1340,'edar rekam suara bahar bin smith isi alas aniaya remaja',None
+1341,'praperadilan chuck tolak haris azhar janji bongkar duga korupsi jagung',None
+1342,'ketua kpk lapor kerja bagai bentuk transparansi',None
+1343,'kpk periksa empat sangka suap dprd kalteng',None
+1344,'keluarga minta bunuh acu hukum mati',None
+1345,'kpk aman uang tunai rp juta buah kartu atm',None
+1346,'kpk segel satu ruang kemenpora',None
+1347,'habib bahar duga rencana aniaya anak bawah umur',None
+1348,'sesmenpora deputi iv aman kpk',None
+1349,'polisi tak habib bahar lima anak buah turut tahan',None
+1350,'sembilan orang aman kpk kini periksa intensif',None
+1351,'kpk benar ott jabat kemenpora kait kasus dana hibah koni',None
+1352,'satgas saber pungli tegah kasus enclave kek mandalika',None
+1353,'mabes polri benar bahar bin smith tahan polda jabar',None
+1354,'polda jabar tahan bahar bin smith atas kasus aniaya',None
+1355,'satu ruang kemenpora segel kpk',None
+1356,'delapan terima suap gatot siap sidang',None
+1357,'setya novanto prihatin keponakan vonis berat',None
+1358,'taufik kurniawan gairah jelas kasus',None
+1359,'bareskrim pssi segera bentuk satgas berantas mafia skor',None
+1360,'serikat kerja jict tanya proses hukum rj lino kpk',None
+1361,'lima orang kait proyek fiktif waskita karya cegah luar negeri',None
+1362,'berkas perkara habib bahar serah jpu pekan depan',None
+1363,'setnov hidup penjara di pesantren',None
+1364,'tangkap bupati irvan kpk piala warga cianjur',None
+1365,'setya novanto tahu bilik cinta sukamiskin',None
+1366,'taufik kurniawan jalan periksa bagai sangka',None
+1367,'sebut beri suap tiga petinggi swasta saksi idrus marham',None
+1368,'banyak nang minta hukum tunda',None
+1369,'dirut jasa tirta ii periksa perdana bagai sangka kpk',None
+1370,'yusril ihza bela maghfirah ibu tiga bayi kembar rutan bireun',None
+1371,'ungkap korupsi infrastruktur kpk geledah jumlah tempat jakarta surabaya',None
+1486,'augie fantinus segera sidang',None
+1487,'polisi sempat usut kasus atur skor bola',None
+1488,'shinta senang rp juta bantu lari eddy',None
+1489,'kpk bidik anggota dpr di kasus bakamla',None
+1490,'satgas mafia bola kerja tahun depan',None
+1491,'kader pdip dominasi daftar ott kpk',None
+1492,'iphone x jadi licin lari eddy sindoro',Opportunity
+1493,'peran imam nahrawi duga suap kemenpora signifikan',None
+1494,'indonesia gandeng swiss lacak uang koruptor',None
+1495,'direktur sdm pt adhi karya periksa kpk',None
+1496,'acara tagih selesai berkas perkara ratna',None
+1497,'direktur uang waskita wado energi garap kpk',None
+1498,'ahmad heryawan panggil kpk',None
+1499,'lima sangka suap kemenpora tahan',None
+1500,'ditjen pas remisi ahok tunggu sk menkumham',None
+1501,'ott dana hibah koni tak ganggu prestasi atlet',None
+1502,'kpk indikasi duga korupsi selenggara asi games',None
+1503,'kasus rj lino rampung ganti pimpin kpk',None
+1504,'jabat kemenpora jadi sangka suap dana hibah koni',None
+1505,'kpk endus duga korupsi di kemenpora',None
+1506,'peran pt waskita proyek fiktif selidik',None
+1507,'kpk minta beri remisi ketat',None
+1508,'eks petinggi universitas udayana tuntut tahun bui',None
+1509,'ott panjang cetak sejarah',None
+1510,'habib bahar aktor utama aniaya anak',None
+1511,'wartawan minta lebih sensitif hadap berita anak',None
+1512,'kode suap meikarta santa tina toon',None
+1514,'korupsi dana hibah masuk rekening jabat kemenpora',None
+1515,'billy sindoro dikdawa suap bupati bekas rp miliar',None
+1516,'legislator daerah paling malas lapor harta kaya',None
+1517,'jokowi blak-blakan soal kriminalisasi ulama madura',Threat
+1518,'kadiv p perum jasa tirta ii periksa kpk',None
+1519,'bukti temu dirut pln sangka tajam',None
+1520,'praperadilan jaksa chuck suryosumpeno tolak',None
+1521,'deputi iv prestasi olahraga duga libat korupsi kemenpora',None
+1522,'uang rp juta aman ott kemenpora',None
+1523,'ott duga kait dana hibah koni',None
+1524,'kpk kabar tangkap jabat kemenpora',None
+1525,'ahmad sudiro pilih jadi ketua umum badapski',None
+1526,'polri bentuk satgas berantas mafia sepak bola',Threat
+1527,'kpk tetap bupati mojokerto sangka cuci uang',None
+1528,'taufik ungkap alir suap pan',None
+1529,'kpk kumpul bukti jerat dirut pln',None
+1530,'novanto tak tahu bilik asmara',None
+1531,'habib bahar periksa atas kasus keras anak',None
+1532,'novanto tak tahu bakal guyur rp miliar',None
+1533,'kotjo sebut novanto jasa proyek pltu riau-i',None
+1534,'empat petinggi pt waskita karya cegah',None
+1535,'novanto prihatin irvanto hukum tahun penjara',None
+1536,'berkas perkara bahar smith segera rampung',None
+1538,'jumlah petinggi waskita langsung periksa intensif',None
+1539,'petinggi pt smelting periksa kasus suap pltu riau-i',None
+1540,'novanto johannes kotjo saksi eni',None
+1541,'kpk bidik pt waskita karya korupsi proyek',None
+1542,'sangka bantah satu adegan rekonstruksi keroyok tni ciracas',None

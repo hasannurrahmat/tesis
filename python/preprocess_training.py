@@ -11,20 +11,20 @@ stopword = factory.create_stop_word_remover()
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
  
-num_lines = sum(1 for line in open('c:/xampp/htdocs/efasonline/python/data_training.csv'))
-file = [[0 for x in range(2)] for y in range(num_lines)]
+num_lines = sum(1 for line in open('c:/xampp/htdocs/efasonline/python/training/training.csv'))
+file = [[0 for x in range(5)] for y in range(num_lines)]
 
 #save file
-savemyFile = open('c:/xampp/htdocs/efasonline/python/preprocessfile.csv', 'w', newline='')
+savemyFile = open('c:/xampp/htdocs/efasonline/python/training/training_preprocess.csv', 'w', newline='')
 # with savemyFile:
-writer = csv.writer(savemyFile, delimiter=',', lineterminator='\r\n', quoting=csv.QUOTE_ALL)
+writer = csv.writer(savemyFile, delimiter=';', lineterminator='\r\n', quoting=csv.QUOTE_ALL)
 
-with open('c:/xampp/htdocs/efasonline/python/data_training.csv', newline='') as myFile:  
-    reader = csv.reader(myFile, delimiter=';', quoting=csv.QUOTE_NONE)
+with open('c:/xampp/htdocs/efasonline/python/training/training.csv', newline='') as myFile:  
+    reader = csv.reader(myFile, delimiter=';', quoting=csv.QUOTE_ALL)
     i=0
     for row in reader:
         #remove number
-        kalimat = re.sub(r'\d+', '', row[2])
+        kalimat = re.sub(r'\d+', '', row[3])
         
         #stemming
         katadasar = stemmer.stem(kalimat)
@@ -34,8 +34,11 @@ with open('c:/xampp/htdocs/efasonline/python/data_training.csv', newline='') as 
         print(kata)
 
         #add to array
-        file[i][0] = kata
-        file[i][1] = row[0]
+        file[i][0] = row[0]
+        file[i][1] = row[1]
+        file[i][2] = row[2]
+        file[i][3] = kata
+        file[i][4] = row[4]
 
         #write file
         writer.writerow(file[i])

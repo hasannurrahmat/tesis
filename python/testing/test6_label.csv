@@ -1,0 +1,46 @@
+"id_testing_data","term","class_test","category_id","accuracy_test"
+"60","sadis pria nganjuk bunuh mertua palu","None",3,0.72237951
+"61","korban motor matic tabrak pohon jalur kawah ijen tambah","None",3,0.82112735
+"62","santri mojokerto tewas tenggelam mandi sungai","None",3,0.55730501
+"63","wow master bejo lasson sama sabet juara piala presiden","None",3,0.65298156
+"64","milenial bojonegoro dukung pilih politik beda tetap satu","None",3,0.72237951
+"65","lubang nganga jalan kutawaringin akibat tanah ambles","None",3,0.72316991
+"66","wow banyuwangi raih kabupaten inovatif mendagri","None",3,0.74975672
+"67","lihat agro technopark dusun sumbermulyo gunungkidul","None",3,0.7089513
+"68","satu napi kabur tugas rutan jepara periksa","None",3,0.72237951
+"69","karut jepara minta bantu polisi kejar napi kabur","None",3,0.72237951
+"70","muncul lubang besar jalan heboh warga kutawaringin","None",3,0.67000301
+"71","gera gemar ikan anak banyuwangi makan ikan pantai","None",3,0.52863048
+"72","sakit tak kunjung sembuh pria gunungkidul gantung diri","None",3,0.64561703
+"73","rem motor matic blong wisatawan kawah ijen tewas tabrak pohon","None",3,0.6509448
+"74","api nyala reta tanah bikin heboh banjarnegara","None",3,0.55350379
+"75","walhi jabar minta ridwan kamil perhati gua pawon","None",3,0.76723023
+"76","beruang madu rika raya ulang tahun pertama bandung zoo","Opportunity",1,0.51874893
+"77","seru buru objek ala makro fotografi sukabumi","None",3,0.60313332
+"78","risma geram gara-gara ruwet akses lokasi bakar halang pmk","None",3,0.59675148
+"79","polres bojonegoro ganjar harga mabes polri","None",3,0.62682157
+"98","rekomendasi wisata glamping instagramable akhir tahun","None",3,0.76870514
+"99","sarap apa besok bikin serba jamur aja","None",3,0.7894084
+"100","cicip surga wisata sembunyi pahawang lampung mirip lombok rasa maldives","None",3,0.76723023
+"101","musim hujan sontek tampil si seksi nabilla aprillya anget","None",3,0.71155271
+"102","destinasi tempat wisata layak tualang","None",3,0.75675823
+"175","dukung earth hour bandara ngurah rai padam listrik","None",3,0.58117718
+"176","jaksa tangkap buron korupsi rp miliar","None",3,0.74744328
+"177","daftar paket umrah nazaret aku lapor polisi","None",3,0.53895242
+"178","empat tantang bangun ketenagakerjaan ntb","None",3,0.53841295
+"179","rugi korban abu tours capai rp triliun","None",3,0.61639788
+"180","kemenag jemaah abu tours tetap berangkat umrah","None",3,0.71634068
+"181","nelayan imbau waspada siklon tropis markus","None",3,0.77576473
+"182","pemkot tengsel sulit normalisasi situ kuru","None",3,0.71505827
+"183","kemenag segera cabut izin operasional abu tours","None",3,0.51931108
+"184","komisi x kritisi minim sarana unbk kabupaten siak","None",3,0.77576473
+"185","giur promo puluh daftar nazaret travel gagal umrah","None",3,0.61079427
+"186","polisi blokir rekening bank kait abu tours","None",3,0.46116803
+"187","blk lombok timur target latih siswa","None",3,0.75120288
+"188","polda sulsel tahan bos abu tours","None",3,0.76933102
+"189","polisi geledah kantor abu tours","None",3,0.8238502
+"190","lulus balai latih kerja lombok timur gaji ratus juta","None",3,0.72061739
+"191","banjir mamuju orang luka","None",3,0.69827858
+"192","impor bawang jadi warga malas tanam","None",3,0.57511672
+"193","ribu balai latih kerja lombok terima kapal pesiar","Threat",2,0.45218834
+,,"None",3,0.59989414

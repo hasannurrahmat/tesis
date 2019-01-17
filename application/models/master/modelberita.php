@@ -166,19 +166,19 @@ class Modelberita extends CI_Model{
 		$this->load->helper('download');
 
 		//delete file exist
-		$path_file = './python/training.csv';
+		$path_file = './python/training/training.csv';
 		if(@unlink($path_file)){}
 
-		$location = "c:/xampp/htdocs/efasonline/python/training.csv";
+		$location = "c:/xampp/htdocs/efasonline/python/training/training.csv";
 		$enclosed = '"';
 		$line_terminated = '\n';
 
-		$SQL = "SELECT 'id_training_data', 'id_berita', 'id_topik','berita', 'trainig_class' UNION ALL SELECT t.id_training_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM training_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas;";
+		$SQL = "SELECT 'id_training_data', 'id_berita', 'id_topik','berita', 'training_class' UNION ALL SELECT t.id_training_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM training_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas;";
 
 		$query = $this->db->query($SQL);
 
 		//download file
-		$file = base_url().'python/training.csv';
+		$file = base_url().'python/training/training.csv';
 		$data = file_get_contents($file);
 		$filename = basename($file);
 		
@@ -189,19 +189,19 @@ class Modelberita extends CI_Model{
 		$this->load->helper('download');
 
 		//delete file exist
-		$path_file = './python/testing.csv';
+		$path_file = './python/testing/testing.csv';
 		if(@unlink($path_file)){}
 
-		$location = "c:/xampp/htdocs/efasonline/python/testing.csv";
+		$location = "c:/xampp/htdocs/efasonline/python/testing/testing.csv";
 		$enclosed = '"';
 		$line_terminated = '\n';
 
-		$SQL = "SELECT 'id_testing_data', 'id_berita', 'id_topik','berita', 'testing_class' UNION ALL SELECT t.id_testing_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM testing_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas;";
+		$SQL = "SELECT 'id_testing_data', 'id_berita', 'id_topik','berita', 'testing_class' UNION ALL SELECT t.id_testing_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM testing_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas;";
 
 		$query = $this->db->query($SQL);
 
 		//download file
-		$file = base_url().'python/testing.csv';
+		$file = base_url().'python/testing/testing.csv';
 		$data = file_get_contents($file);
 		$filename = basename($file);
 		
