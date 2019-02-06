@@ -191,8 +191,8 @@ class Berita extends CI_Controller{
 		}
 	}
 
-	public function export_training(){
-		$this->modelberita->export_training();
+	public function export_training($topik=0){
+		$this->modelberita->export_training($topik);
 
 		$this->session->set_flashdata('message', 'Data training berhasil di export!');
 		$this->session->set_flashdata('statusmessage', '1');
@@ -295,7 +295,7 @@ class Berita extends CI_Controller{
 		    	$i++;
 			}
 		}
-		
+
 		return $data;
 	}
 

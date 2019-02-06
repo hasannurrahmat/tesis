@@ -162,46 +162,66 @@ class Modelberita extends CI_Model{
 		$this->db->insert('testing_data', $data);
 	}
 
-	public function export_training(){
+	public function export_training($topik=0){
 		$this->load->helper('download');
 
-		//delete file exist
-		$path_file = './python/training/training.csv';
-		if(@unlink($path_file)){}
+		if($topik==1){
+			$path_file = "python/training/training_politik.csv";
+		}elseif ($topik==2){
+			$path_file = "python/training/training_ekonomi.csv";
+		}elseif ($topik==3){
+			$path_file = "python/training/training_sosial.csv";
+		}elseif ($topik==4){
+			$path_file = "python/training/training_teknologi.csv";
+		}
 
-		$location = "c:/xampp/htdocs/efasonline/python/training/training.csv";
+		//delete file exist
+		$path = './'.$path_file;
+		if(@unlink($path)){}
+
+		$location = "c:/xampp/htdocs/efasonline/".$path_file;
 		$enclosed = '"';
 		$line_terminated = '\n';
 
-		$SQL = "SELECT 'id_training_data', 'id_berita', 'id_topik','berita', 'training_class' UNION ALL SELECT t.id_training_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM training_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas;";
+		$SQL = "SELECT 'id_training_data', 'id_berita', 'id_topik','berita', 'training_class' UNION ALL SELECT t.id_training_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM training_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas where ts.id_topik=".$topik.";";
 
 		$query = $this->db->query($SQL);
 
 		//download file
-		$file = base_url().'python/training/training.csv';
+		$file = base_url().''.$path_file;
 		$data = file_get_contents($file);
 		$filename = basename($file);
 		
 		force_download($filename, $data);
 	}
 
-	public function export_testing(){
+	public function export_testing($topik=0){
 		$this->load->helper('download');
 
-		//delete file exist
-		$path_file = './python/testing/testing.csv';
-		if(@unlink($path_file)){}
+		if($topik==1){
+			$path_file = "python/testing/testing_politik.csv";
+		}elseif ($topik==2){
+			$path_file = "python/testing/testing_ekonomi.csv";
+		}elseif ($topik==3){
+			$path_file = "python/testing/testing_sosial.csv";
+		}elseif ($topik==4){
+			$path_file = "python/testing/testing_teknologi.csv";
+		}
 
-		$location = "c:/xampp/htdocs/efasonline/python/testing/testing.csv";
+		//delete file exist
+		$path = './'.$path_file;
+		if(@unlink($path)){}
+
+		$location = "c:/xampp/htdocs/efasonline/".$path_file;
 		$enclosed = '"';
 		$line_terminated = '\n';
 
-		$SQL = "SELECT 'id_testing_data', 'id_berita', 'id_topik','berita', 'testing_class' UNION ALL SELECT t.id_testing_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM testing_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas;";
+		$SQL = "SELECT 'id_testing_data', 'id_berita', 'id_topik','berita', 'testing_class' UNION ALL SELECT t.id_testing_data, t.id_berita, ts.id_topik, b.berita, k.kelas INTO OUTFILE '".$location."' FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".$enclosed."' LINES TERMINATED BY '".$line_terminated."' FROM testing_data t JOIN berita b ON t.id_berita = b.id_berita JOIN topik_situs ts ON b.id_topik_situs = ts.id_topik_situs JOIN kelas k ON t.id_kelas = k.id_kelas where ts.id_topik=".$topik.";";
 
 		$query = $this->db->query($SQL);
 
 		//download file
-		$file = base_url().'python/testing/testing.csv';
+		$file = base_url().''.$path_file;
 		$data = file_get_contents($file);
 		$filename = basename($file);
 		

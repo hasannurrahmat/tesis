@@ -20,7 +20,7 @@
 				<div class="col-lg-12">
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<div class="page-header">
+							<div class="page-header" style="margin: 10px; !important">
 								<h3>List Jumlah Berita Online</h3>
 							</div>
 							
@@ -98,7 +98,20 @@
 											<p><?php echo $links_training; ?></p>
 										</div>
 									<?php } ?>
-									<a href="<?php echo base_url();?>master/berita/export_training/"><button class="btn btn-primary">Export Data Training</button></a>
+
+									<!-- Single button -->
+									<div class="btn-group">
+									  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									    Export Data Training <span class="caret"></span>
+									  </button>
+									  <ul class="dropdown-menu">
+									    <li><a href="<?php echo base_url();?>master/berita/export_training/1">Politik</a></li>
+									    <li><a href="<?php echo base_url();?>master/berita/export_training/2">Ekonomi</a></li>
+									    <li><a href="<?php echo base_url();?>master/berita/export_training/3">Sosial</a></li>
+									    <li><a href="<?php echo base_url();?>master/berita/export_training/4">Teknologi</a></li>
+									  </ul>
+									</div>
+									
 							    </div>
 
 								<!-- Data Testing -->
@@ -163,7 +176,20 @@
 											<p><?php echo $links_testing; ?></p>
 										</div>
 									<?php } ?>
-									<a href="<?php echo base_url();?>master/berita/export_testing/"><button class="btn btn-primary">Export Data Testing</button></a>
+									
+									<!-- Single button -->
+									<div class="btn-group">
+									  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									    Export Data Testing <span class="caret"></span>
+									  </button>
+									  <ul class="dropdown-menu">
+									    <li><a href="<?php echo base_url();?>master/berita/export_testing/1">Politik</a></li>
+									    <li><a href="<?php echo base_url();?>master/berita/export_testing/2">Ekonomi</a></li>
+									    <li><a href="<?php echo base_url();?>master/berita/export_testing/3">Sosial</a></li>
+									    <li><a href="<?php echo base_url();?>master/berita/export_testing/4">Teknologi</a></li>
+									  </ul>
+									</div>
+									
 							    </div>
 							</div>
 
