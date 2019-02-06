@@ -20,6 +20,7 @@
 							
 							</div>
 							<form class="form-horizontal" role="form" action ="<?php echo base_url(); ?>master/berita/submit" method="POST" enctype="multipart/form-data">
+								<input type="hidden" name="jenis" value="0">
 								<div class="form-group">
 									<label class="col-sm-2 control-label required">Situs</label>
 									<div class="col-sm-10">
@@ -49,7 +50,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-sm-2 control-label">Tanggal Awal<font color="red">*</font></label>
+									<label class="col-sm-2 control-label">Tanggal Awal</label>
 									<div class="col-sm-4">
 										<input type="date" class="form-control" name="tanggal_awal">
 									</div>
@@ -60,23 +61,7 @@
 									<div class="col-sm-10">
 									</div>
 								</div>
-								<div class="form-group">
-									<label class="col-sm-2 control-label">Page<font color="red">**</font></label>
-									<div class="col-sm-10">
-										<input type="hidden" class="form-control" name="jenis" value=2>
-										<input type="number" class="form-control" name="page" value=1>
-									</div>
-								</div>
-								<div class="form-group">
-									
-									<label class="col-sm-2 control-label">&nbsp;</label>
-									<div class="col-sm-10">
-										<font color="red">*</font>&nbsp;<small class="form-text text-muted">Tidak digunakan untuk situs RMOL dan Metrotvnews untuk topik Politics, Social, Legal, dan Environment.</small>
-									</div>
-									<div class="col-sm-10">
-										<font color="red">**</font>&nbsp;<small class="form-text text-muted">Khusus untuk situs RMOL dan Metrotvnews untuk topik Politics, Social, Legal, dan Environment.</small>
-									</div>
-								</div>
+								
 								<hr>
 								<div class="pull-right">
 								<button type="reset" class="btn btn-warning">Reset</button>

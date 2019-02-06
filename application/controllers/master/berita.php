@@ -259,13 +259,20 @@ class Berita extends CI_Controller{
 		
 		$data = array();
 		//get title
-		$items = $doc->getElementsByTagName('h2');
+		if($topik==3){
+			$items = $doc->getElementsByTagName('h3');
+		}else{
+			$items = $doc->getElementsByTagName('h2');
+		}
+
 		$i=0;
 		foreach($items as $value){
 			$attrs = $value->textContent;
-			$data[$i] = array();
-			$data[$i]['judul'] = $attrs;
-			$i++;
+			if(strlen(trim($attrs))>25){
+				$data[$i] = array();
+				$data[$i]['judul'] = trim($attrs);
+				$i++;
+			}
 		}
 		
 		//get url
@@ -288,7 +295,7 @@ class Berita extends CI_Controller{
 		    	$i++;
 			}
 		}
-
+		
 		return $data;
 	}
 

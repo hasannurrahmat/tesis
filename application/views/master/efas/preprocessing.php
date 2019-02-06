@@ -3,7 +3,7 @@
 	<div class="panel-body">
     	<form class="form-inline" action ="<?php echo base_url(); ?>master/efas/preprocessing_submit" method="POST" enctype="multipart/form-data">
 			<div class="form-group">
-				<label>Load Data Training</label>
+				<label>Load Data Training/Testing</label>
 				<input type="file" class="form-control" name="userfile" size="20" style="width: auto;">
 			</div>
 			
