@@ -20,6 +20,7 @@ class efas extends CI_Controller{
 	public function home(){
 		$data['tahap'] = 0;
 		$data['cek'] = $this->modelefas->getAllterm_training();
+		$data["topik"] = $this->modelefas->getAlltopik();
 		$this->load->view('master/efas/home', $data);
 	}
 	
@@ -38,31 +39,46 @@ class efas extends CI_Controller{
 	}
 
 	public function preprocessing_submit(){
+		$id_topik = $this->input->post('id_topik');
+		$jenis = $this->input->post('jenis');
+		$jenis_data = ($jenis==1? 'training': 'testing');
 
+		if($id_topik==1){
+			$path_file = "./python/".$jenis_data."/".$jenis_data."_preprocess_politik.csv";
+			$filename = "".$jenis_data."_preprocess_politik";
+		}elseif ($id_topik==2){
+			$path_file = "./python/".$jenis_data."/".$jenis_data."_preprocess_ekonomi.csv";
+			$filename = "".$jenis_data."_preprocess_ekonomi";
+		}elseif ($id_topik==3){
+			$path_file = "./python/".$jenis_data."/".$jenis_data."_preprocess_sosial.csv";
+			$filename = "".$jenis_data."_preprocess_sosial";
+		}elseif ($id_topik==4){
+			$path_file = "./python/".$jenis_data."/".$jenis_data."_preprocess_teknologi.csv";
+			$filename = "".$jenis_data."_preprocess_teknologi";
+		}
 		//delete file exist
-		$path_file = './python/training/training_preprocess.csv';
 		if(@unlink($path_file)){}
 
-		$config['upload_path'] = './python/training/';
-	    $config['allowed_types'] = 'csv';
-	    $config['max_size'] = '10000';
-	    $config['overwrite'] = TRUE;
-	    $config['encrypt_name'] = FALSE;
-	    $config['remove_spaces'] = TRUE;
-	    $config['file_name'] = "training";
-	    if ( ! is_dir($config['upload_path']) ) die("THE UPLOAD DIRECTORY DOES NOT EXIST");
-	    $this->load->library('upload', $config);
-	    if ( ! $this->upload->do_upload('userfile')) {
-	        echo 'error';
-	    } else {
-	        $upload_data = $this->upload->data();
-	    }
+		// $config['upload_path'] = './python/'.$jenis_data.'/';
+	 //    $config['allowed_types'] = 'csv';
+	 //    $config['max_size'] = '10000';
+	 //    $config['overwrite'] = TRUE;
+	 //    $config['encrypt_name'] = FALSE;
+	 //    $config['remove_spaces'] = TRUE;
+	 //    $config['file_name'] = $filename;
+	 //    if ( ! is_dir($config['upload_path']) ) die("THE UPLOAD DIRECTORY DOES NOT EXIST");
+	 //    $this->load->library('upload', $config);
+	 //    if ( ! $this->upload->do_upload('userfile')) {
+	 //        echo 'error';
+	 //    } else {
+	 //        $upload_data = $this->upload->data();
+	 //    }
 
 	    //update tabel training data
 	    // $this->update_training_csv();
 
 	    //run preprocessing python
-	    // $this->preprocessing_exec();
+	    $this->preprocessing_exec($id_topik, $jenis);
 
 		$this->session->set_flashdata('message', 'Data berhasil diupload!');
 		$this->session->set_flashdata('statusmessage', '1');
@@ -70,13 +86,26 @@ class efas extends CI_Controller{
 		// $row=$this->modelberita->gettopiksitus($id_situs, $id_topik);
 	}
 
-	public function preprocessing_exec(){
-		$cmd="python c:/xampp/htdocs/efasonline/python/preprocess_training.py";
+	public function preprocessing_exec($topik=0, $jenis=0){
+		ini_set('max_execution_time', 0);
+		set_time_limit(0);
 
-		$command = escapeshellcmd($cmd);
+		$jenis_data = ($jenis==1? 'training': 'testing');
 
-		$output = shell_exec($command);
-		echo $output;
+		if($topik==1){
+			$path_file = "python/preprocess_".$jenis_data."_politik.py";
+		}elseif ($topik==2){
+			$path_file = "python/preprocess_".$jenis_data."_ekonomi.py";
+		}elseif ($topik==3){
+			$path_file = "python/preprocess_".$jenis_data."_sosial.py";
+		}elseif ($topik==4){
+			$path_file = "python/preprocess_".$jenis_data."_teknologi.py";
+		}
+		$cmd="python c:/xampp/htdocs/efasonline/".$path_file;
+
+		// $command = escapeshellcmd($cmd);
+
+		$output = shell_exec($cmd);
 	}
 
 	public function download_preprocess($id_topik=0){

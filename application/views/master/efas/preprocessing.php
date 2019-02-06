@@ -3,7 +3,7 @@
 	<div class="panel-body">
     	<form class="form-inline" action ="<?php echo base_url(); ?>master/efas/preprocessing_submit" method="POST" enctype="multipart/form-data">
 			<div class="form-group">
-				<label>Load Data Training/Testing</label>
+				<label>Load Data</label>
 				<input type="file" class="form-control" name="userfile" size="20" style="width: auto;">
 			</div>
 			<div class="form-group">
@@ -16,6 +16,14 @@
 					<?php }else{ ?>
 						<option value="<?php echo $j->id_topik; ?>"><?php echo $j->topik; ?></option>
 					<?php } endforeach; ?>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Jenis</label>
+				<select class="form-control" name="jenis" style="width: auto;">
+					<option value=0>-- Pilih Data --</option>
+					<option value=1>Data Training</option>
+					<option value=2>Data Testing</option>
 				</select>
 			</div>
 			<button type="submit" class="btn btn-default">Upload</button>
