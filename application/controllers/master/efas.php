@@ -33,6 +33,7 @@ class efas extends CI_Controller{
 	public function preprocessing(){
 		$data['tahap'] = 1;
 		$data['cek'] = $this->modelefas->getAllterm_training();
+		$data["topik"] = $this->modelefas->getAlltopik();
 		$this->load->view('master/efas/home', $data);
 	}
 
@@ -113,7 +114,6 @@ class efas extends CI_Controller{
 		}
 		$this->load->view('master/efas/home', $data);
 	}
-
 
 	//sorting bobot
 	function array_sort_by_column(&$arr, $col, $dir = SORT_DESC) {

@@ -6,7 +6,18 @@
 				<label>Load Data Training/Testing</label>
 				<input type="file" class="form-control" name="userfile" size="20" style="width: auto;">
 			</div>
-			
+			<div class="form-group">
+				<label>Topic</label>
+				<select class="form-control" name="id_topik" style="width: auto;">
+					<option value=0>-- Pilih Topik --</option>
+					<?php foreach($topik as $j): ?>
+					<?php if($j->id_topik == $id_topik){ ?>
+						<option selected value="<?php echo $j->id_topik; ?>"><?php echo $j->topik; ?></option>
+					<?php }else{ ?>
+						<option value="<?php echo $j->id_topik; ?>"><?php echo $j->topik; ?></option>
+					<?php } endforeach; ?>
+				</select>
+			</div>
 			<button type="submit" class="btn btn-default">Upload</button>
 		</form>
 		<hr>
