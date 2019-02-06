@@ -47,7 +47,7 @@
 												<th class="text-center"><?php echo $t->topik ?></th>
 											<?php endforeach; ?>
 										</tr>
-										<?php $sum = array(0, 0, 0, 0, 0, 0);  ?>
+										<?php $sum = array(0, 0, 0, 0);  ?>
 
 										<?php $no=1; if($situs){ foreach($situs as $s): ?>
 											<tr>
@@ -67,9 +67,14 @@
 										<?php $no++; endforeach; ?>
 										<tr>
 											<td colspan="2">Jumlah Berita</td>
-											<?php foreach($sum as $t): ?>
-												<td width="10%" class="text-center"><?php echo $t; ?></td>
+											<?php $total = 0; foreach($sum as $t): ?>
+												<td width="10%" class="text-center"><b><?php echo $t; $total+=$t; ?></b></td>
 											<?php endforeach; ?>
+										</tr>
+										<tr>
+											<td colspan="2">Jumlah Keseluruhan Berita</td>
+											<td colspan="4" width="10%" class="text-center"><b><?php echo $total; ?></b></td>
+
 										</tr>
 										<?php }else{ ?>
 											<tr><td colspan=8>Tidak ada data, silahkan tambah data</td></tr>
@@ -107,7 +112,7 @@
 												<th class="text-center"><?php echo $t->topik ?></th>
 											<?php endforeach; ?>
 										</tr>
-										<?php $sum = array(0, 0, 0, 0, 0, 0);  ?>
+										<?php $sum = array(0, 0, 0, 0);  ?>
 
 										<?php $no=1; if($situs){ foreach($situs as $s): ?>
 											<tr>
@@ -127,9 +132,14 @@
 										<?php $no++; endforeach; ?>
 										<tr>
 											<td colspan="2">Jumlah Berita</td>
-											<?php foreach($sum as $t): ?>
-												<td width="10%" class="text-center"><?php echo $t; ?></td>
+											<?php $total = 0; foreach($sum as $t): ?>
+												<td width="10%" class="text-center"><b><?php echo $t; $total+=$t; ?></b></td>
 											<?php endforeach; ?>
+										</tr>
+										<tr>
+											<td colspan="2">Jumlah Keseluruhan Berita</td>
+											<td colspan="4" width="10%" class="text-center"><b><?php echo $total; ?></b></td>
+
 										</tr>
 										<?php }else{ ?>
 											<tr><td colspan=8>Tidak ada data, silahkan tambah data</td></tr>
